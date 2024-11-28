@@ -1,101 +1,85 @@
-import Image from "next/image";
+"use client";
+// import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <main>
+      <header>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+        <nav className="w-full border border-red-600">
+          <Link href="nav"></Link>
+          <ol className="h-8 flex justify-center text-xl font-bold">
+            <li className="float-left mr-3 hover:text-orange-400">
+              <Link href="#home">
+                Home
+              </Link>
+            </li>
+            <li className="float-left mr-3 hover:text-orange-400">
+              <Link href="#roteiros">
+                Roteiros
+              </Link>
+            </li>
+            <li className="float-left mr-3 hover:text-orange-400">
+              <Link href="#sobrenos">
+                Sobre Nós
+              </Link>
+            </li>
+            <li className="float-left hover:text-orange-400">
+              <Link href="#contatos">
+                Contatos
+              </Link>
+            </li>
+          </ol>
+        </nav>
+      </header>
+
+      <div className="text-center">
+        <section id="home" className="h-80 mt-7 border border-blue-500">
+          <h1 className="text-3xl">Home</h1>
+        </section>
+
+        <section id="roteiros" className="h-80 mt-7 border border-green-600">
+          <h1 className="text-3xl">Roteiros</h1>
+        </section>
+
+        <section id="sobrenos" className="h-80 mt-7 border border-orange-500">
+          <h1 className="text-3xl">Sobre Nós</h1>
+        </section>
+      </div>
+
+      <footer id="contatos" className="min-h-40 mt-5 border border-amber-300 overflow-hidden">
+        <ol className="text-center">
+          <li className="mb-4">
+            <h2 className="text-3xl mb-3">
+              Contatos
+            </h2>
+          </li>
+          <li className="mb-4 hover:text-orange-400">
+            <Link href="https://wa.me/+5524998793280" target="_blank">
+              WhatsApp
+            </Link>
+          </li>
+          <li className="mb-4 hover:text-orange-400">
+            <Link href="mailto:seuroteiroemparaty@gmail.com">
+              E-Mail
+            </Link>
+          </li>
+          <li className="mb-4 hover:text-orange-400">
+            <Link href="https://www.google.com/maps/dir//Casa+Poema+Paraty+-+Av.+Candido+Portinari,+156+-+Portal+das+Artes,+Paraty+-+RJ,+23970-000/@-23.2171147,-44.8145765,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x9d6d026d6383e3:0xc8d0d9c9bfcdbb9!2m2!1d-44.7321799!2d-23.2171372?hl=pt-BR&entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+              Endereço
+            </Link>
+          </li>
+        </ol>
       </footer>
-    </div>
+      <div className="text-2xl fixed bottom-3 right-12 text-orange-400 font-bold">
+        <Link href="#nav">
+          Clique aqui para <br />
+          Voltar ao Topo
+        </Link>
+      </div>
+    </main>
+
   );
-}
+};
+
