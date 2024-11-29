@@ -56,6 +56,11 @@ export default function Home() {
             </h2>
           </li>
           <li className="mb-4 hover:text-orange-400">
+            <Link href="https://instagram.com/seuroteiroemparaty" target="_blank">
+              Instagram
+            </Link>
+          </li>
+          <li className="mb-4 hover:text-orange-400">
             <Link href="https://wa.me/+5524998793280" target="_blank">
               WhatsApp
             </Link>
