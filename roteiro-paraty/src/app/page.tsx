@@ -1,15 +1,25 @@
 "use client";
-// import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <main>
-      <header>
+      <header className="flex justify-center w-full border border-red-600">
 
-        <nav className="w-full border border-red-600">
-          <Link href="nav"></Link>
-          <ol className="h-8 flex justify-center text-xl font-bold">
+        <Link href="nav"></Link>
+
+        <nav className="w-2/5 py-2">
+          <div className="flex float-left">
+            <Image
+              src={`https://scontent-gru2-2.cdninstagram.com/v/t51.2885-19/462109955_403320775974846_3982317904369396721_n.jpg?stp=dst-jpg_tt6&_nc_ht=scontent-gru2-2.cdninstagram.com&_nc_cat=106&_nc_ohc=KGmVfDzbR48Q7kNvgFi4OG9&_nc_gid=1c3e7670e07a4b25836df826ace8552b&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AYBXR2teEBsJgQKTdUS9a50vdkwxQAabc2ivbdu2FjIkNg&oe=674FF550&_nc_sid=22de04`}
+              alt="Seu Roteiro em Paraty!"
+              width={50}
+              height={50}
+            />
+          </div>
+
+          <ol className="mt-3 flex float-right text-xl font-bold">
             <li className="float-left mr-3 hover:text-orange-400">
               <Link href="#home">
                 Home
@@ -68,11 +78,6 @@ export default function Home() {
           <li className="mb-4 hover:text-orange-400">
             <Link href="mailto:seuroteiroemparaty@gmail.com">
               E-Mail
-            </Link>
-          </li>
-          <li className="mb-4 hover:text-orange-400">
-            <Link href="https://www.google.com/maps/dir//Casa+Poema+Paraty+-+Av.+Candido+Portinari,+156+-+Portal+das+Artes,+Paraty+-+RJ,+23970-000/@-23.2171147,-44.8145765,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x9d6d026d6383e3:0xc8d0d9c9bfcdbb9!2m2!1d-44.7321799!2d-23.2171372?hl=pt-BR&entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank">
-              Endereço
             </Link>
           </li>
         </ol>
