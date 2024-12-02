@@ -25,8 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <body className={(`${geistSans.variable} ${geistMono.variable} antialiased`)}> */}
-      <body className={`bg-[url("https://euamoparaty.com.br/wp-content/uploads/2016/05/paraty-2.jpg")]`}>
+      <body className="bg-white">
+        {/* <body className={(`${geistSans.variable} ${geistMono.variable} antialiased`)}> */}
+        {/* <body className={`bg-[url("https://euamoparaty.com.br/wp-content/uploads/2016/05/paraty-2.jpg")]`}> */}
         {children}
       </body>
     </html>

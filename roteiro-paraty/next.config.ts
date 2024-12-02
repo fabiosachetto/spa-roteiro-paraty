@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        hostname: 'scontent-gru2-2.cdninstagram.com',
+        hostname: 'media-gru1-1.cdn.whatsapp.net',
       },
     ],
   },
