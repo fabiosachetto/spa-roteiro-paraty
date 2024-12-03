@@ -1,6 +1,20 @@
 "use client";
+
+import localFont from "next/font/local";
 import Image from "next/image";
 import Link from "next/link";
+import "./globals.css";
+
+const openSans = localFont({
+  src: "./fonts/OpenSans-Regular.ttf",
+  // variable: "--font-geist-sans",
+  weight: "100 900",
+});
+const stella = localFont({
+  src: "./fonts/Stella.ttf",
+  // variable: "--font-geist-mono",
+  weight: "100 900",
+});
 
 export default function Home() {
   return (
@@ -12,7 +26,8 @@ export default function Home() {
         <nav className="w-2/5 py-2">
           <div className="flex float-left">
             <Image
-              src={`https://media-gru1-1.cdn.whatsapp.net/v/t61.24694-24/457793804_1746643146168954_6307120735597528194_n.jpg?ccb=11-4&oh=01_Q5AaIArImlRLoSjTTSa57aZ0U2pRIl22iF-e5pnPvf5EUemR&oe=6757364C&_nc_sid=5e03e0&_nc_cat=103`}
+              // src={`https://media-gru1-1.cdn.whatsapp.net/v/t61.24694-24/457793804_1746643146168954_6307120735597528194_n.jpg?ccb=11-4&oh=01_Q5AaIArImlRLoSjTTSa57aZ0U2pRIl22iF-e5pnPvf5EUemR&oe=6757364C&_nc_sid=5e03e0&_nc_cat=103`}
+              src="/assets/images/logo-roteiro.png"
               alt="Seu Roteiro em Paraty!"
               width={50}
               height={50}
@@ -21,12 +36,12 @@ export default function Home() {
 
           <ol className="mt-3 flex float-right text-xl font-bold">
             <li className="float-left mr-3 hover:text-orange-400">
-              <Link href="#home">
+              <Link href="#home" className={(`${stella}`)}>
                 Nossas Atividades
               </Link>
             </li>
             <li className="float-left mr-3 hover:text-orange-400">
-              <Link href="#roteiros">
+              <Link href="#roteiros" className={(`${openSans}`)}>
                 Roteiros
               </Link>
             </li>
