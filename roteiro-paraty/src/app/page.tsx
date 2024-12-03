@@ -1,8 +1,6 @@
 "use client";
-
-import Image from "next/image";
+import { Navbar } from "@/components";
 import Link from "next/link";
-
 
 export default function Home() {
   return (
@@ -11,57 +9,24 @@ export default function Home() {
 
         <Link href="nav"></Link>
 
-        <nav className="w-2/5 py-2">
-          <div className="flex float-left">
-            <Image
-              // src={`https://media-gru1-1.cdn.whatsapp.net/v/t61.24694-24/457793804_1746643146168954_6307120735597528194_n.jpg?ccb=11-4&oh=01_Q5AaIArImlRLoSjTTSa57aZ0U2pRIl22iF-e5pnPvf5EUemR&oe=6757364C&_nc_sid=5e03e0&_nc_cat=103`}
-              src="/assets/images/logo-roteiro.png"
-              alt="Seu Roteiro em Paraty!"
-              width={50}
-              height={50}
-            />
-          </div>
+        <Navbar />
 
-          <ol className="mt-3 flex float-right text-xl font-bold">
-
-            <li className="float-left mr-3 hover:text-orange-400">
-              <Link href="#sobrenos">
-                Quem Somos Nós
-              </Link>
-            </li>
-            <li className="float-left mr-3 hover:text-orange-400">
-              <Link href="#home">
-                Nossas Atividades
-              </Link>
-            </li>
-            <li className="float-left mr-3 hover:text-orange-400">
-              <Link href="#roteiros">
-                Roteiros
-              </Link>
-            </li>
-            <li className="float-left hover:text-orange-400">
-              <Link href="#contatos">
-                Contatos
-              </Link>
-            </li>
-          </ol>
-        </nav>
       </header>
 
       <div className="text-center">
         <section id="sobrenos" className="mt-7 p-7">
-          <h2 className="text-3xl">Quem Somos Nós</h2>
+          <h2 className="text-3xl uppercase">Quem Somos Nós</h2>
           <p className="">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros tortor, bibendum ac hendrerit et, finibus eu eros. Morbi laoreet quam at rutrum venenatis. Quisque eget orci eu sapien scelerisque efficitur nec auctor sem. Integer scelerisque velit sed mi sollicitudin ornare. Nam rhoncus, sem sit amet suscipit commodo, lorem tortor maximus dolor, et sodales ligula leo in odio. Phasellus feugiat commodo risus quis pharetra. Curabitur lobortis lacus ut eros mollis ultrices. Duis sit amet imperdiet diam. Vivamus volutpat nulla vel dui faucibus semper. Sed rhoncus diam quis orci hendrerit rutrum. Nam in ante in eros tempus posuere vel vitae arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus nec facilisis tortor.
           </p>
         </section>
 
         <section id="home" className="h-80 mt-7 border border-blue-500">
-          <h2 className="text-3xl text-black">Nossas Atividades</h2>
+          <h2 className="text-3xl text-black uppercase">Nossas Atividades</h2>
         </section>
 
         <section id="roteiros" className="h-80 mt-7 border border-green-600">
-          <h2 className="text-3xl text-black">Roteiros</h2>
+          <h2 className="text-3xl text-black uppercase">Roteiros</h2>
         </section>
 
 
