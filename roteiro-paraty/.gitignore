@@ -39,8 +39,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# pasta public
-public
-
 # infos do cliente
 infos.txt
