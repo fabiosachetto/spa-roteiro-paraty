@@ -1,20 +1,8 @@
 "use client";
 
-import localFont from "next/font/local";
 import Image from "next/image";
 import Link from "next/link";
-import "./globals.css";
 
-const openSans = localFont({
-  src: "./fonts/OpenSans-Regular.ttf",
-  // variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const stella = localFont({
-  src: "./fonts/Stella.ttf",
-  // variable: "--font-geist-mono",
-  weight: "100 900",
-});
 
 export default function Home() {
   return (
@@ -35,19 +23,20 @@ export default function Home() {
           </div>
 
           <ol className="mt-3 flex float-right text-xl font-bold">
+
             <li className="float-left mr-3 hover:text-orange-400">
-              <Link href="#home" className={(`${stella}`)}>
+              <Link href="#sobrenos">
+                Quem Somos Nós
+              </Link>
+            </li>
+            <li className="float-left mr-3 hover:text-orange-400">
+              <Link href="#home">
                 Nossas Atividades
               </Link>
             </li>
             <li className="float-left mr-3 hover:text-orange-400">
-              <Link href="#roteiros" className={(`${openSans}`)}>
+              <Link href="#roteiros">
                 Roteiros
-              </Link>
-            </li>
-            <li className="float-left mr-3 hover:text-orange-400">
-              <Link href="#sobrenos">
-                Sobre Nós
               </Link>
             </li>
             <li className="float-left hover:text-orange-400">
@@ -60,20 +49,22 @@ export default function Home() {
       </header>
 
       <div className="text-center">
-        <section id="home" className="h-80 mt-7 border border-blue-500">
-          <h1 className="text-3xl text-black">Nossas Atividades</h1>
-        </section>
-
-        <section id="roteiros" className="h-80 mt-7 border border-green-600">
-          <h1 className="text-3xl text-black">Roteiros</h1>
-        </section>
-
-        <section id="sobrenos" className="h-80 mt-7 bg-black bg-opacity-75">
-          <h1 className="text-3xl text-white">Sobre Nós</h1>
-          <p className="text-white">
+        <section id="sobrenos" className="mt-7 p-7">
+          <h2 className="text-3xl">Quem Somos Nós</h2>
+          <p className="">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros tortor, bibendum ac hendrerit et, finibus eu eros. Morbi laoreet quam at rutrum venenatis. Quisque eget orci eu sapien scelerisque efficitur nec auctor sem. Integer scelerisque velit sed mi sollicitudin ornare. Nam rhoncus, sem sit amet suscipit commodo, lorem tortor maximus dolor, et sodales ligula leo in odio. Phasellus feugiat commodo risus quis pharetra. Curabitur lobortis lacus ut eros mollis ultrices. Duis sit amet imperdiet diam. Vivamus volutpat nulla vel dui faucibus semper. Sed rhoncus diam quis orci hendrerit rutrum. Nam in ante in eros tempus posuere vel vitae arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus nec facilisis tortor.
           </p>
         </section>
+
+        <section id="home" className="h-80 mt-7 border border-blue-500">
+          <h2 className="text-3xl text-black">Nossas Atividades</h2>
+        </section>
+
+        <section id="roteiros" className="h-80 mt-7 border border-green-600">
+          <h2 className="text-3xl text-black">Roteiros</h2>
+        </section>
+
+
       </div>
 
       <footer id="contatos" className="min-h-40 mt-5 bg-black bg-opacity-75 overflow-hidden text-white">
