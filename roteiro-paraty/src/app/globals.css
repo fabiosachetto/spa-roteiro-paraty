@@ -30,10 +30,31 @@ p {
 	font-family: openSans, sans-serif;
 }
 
-#sobrenos {
+#quemsomosnos,
+#veleiro,
+#contato {
 	background-color: #e5efdf;
 }
-#sobrenos h2,
-#sobrenos p {
+#quemsomosnos h2,
+#quemsomosnos p,
+#veleiro h2,
+#veleiro p,
+#contato h2,
+#contato p {
 	color: #91602a;
+}
+
+#escuna,
+#jeep {
+	background-color: #91602a;
+}
+
+#lancha,
+#clientes {
+	background-color: #82ac9d;
+}
+
+#programas,
+#feedback {
+	background-color: #4f2f26;
 }

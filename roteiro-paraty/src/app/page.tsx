@@ -4,39 +4,53 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main>
-      <header className="flex justify-center w-full bg-black bg-opacity-50">
+    <div>
 
-        <Link href="nav"></Link>
-
-        <Navbar />
-
-      </header>
+      <Navbar />
 
       <div className="text-center">
-        <section id="sobrenos" className="mt-7 p-7">
-          <h2 className="text-3xl uppercase">Quem Somos Nós</h2>
+
+        <section id="quemsomosnos" className="mt-7 p-7">
+          <h2 className="text-4xl uppercase">Quem Somos Nós</h2>
           <p className="">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros tortor, bibendum ac hendrerit et, finibus eu eros. Morbi laoreet quam at rutrum venenatis. Quisque eget orci eu sapien scelerisque efficitur nec auctor sem. Integer scelerisque velit sed mi sollicitudin ornare. Nam rhoncus, sem sit amet suscipit commodo, lorem tortor maximus dolor, et sodales ligula leo in odio. Phasellus feugiat commodo risus quis pharetra. Curabitur lobortis lacus ut eros mollis ultrices. Duis sit amet imperdiet diam. Vivamus volutpat nulla vel dui faucibus semper. Sed rhoncus diam quis orci hendrerit rutrum. Nam in ante in eros tempus posuere vel vitae arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus nec facilisis tortor.
           </p>
         </section>
 
-        <section id="home" className="h-80 mt-7 border border-blue-500">
-          <h2 className="text-3xl text-black uppercase">Nossas Atividades</h2>
+        <section id="escuna" className="mt-7 p-7">
+          <h2 className="text-4xl text-white uppercase">Escuna</h2>
         </section>
 
-        <section id="roteiros" className="h-80 mt-7 border border-green-600">
-          <h2 className="text-3xl text-black uppercase">Roteiros</h2>
+        <section id="lancha" className="mt-7 p-7">
+          <h2 className="text-4xl text-white uppercase">Lancha Privativa</h2>
         </section>
 
+        <section id="programas" className="mt-7 p-7">
+          <h2 className="text-4xl text-white uppercase">Programas Personalizados</h2>
+        </section>
 
+        <section id="veleiro" className="mt-7 p-7">
+          <h2 className="text-4xl text-white uppercase">Veleiro Privativo</h2>
+        </section>
+
+        <section id="jeep" className="mt-7 p-7">
+          <h2 className="text-4xl text-white uppercase">Jeep (Cachoeiras)</h2>
+        </section>
+
+        <section id="clientes" className="mt-7 p-7">
+          <h2 className="text-4xl text-white uppercase">Clientes</h2>
+        </section>
+
+        <section id="feedback" className="mt-7 p-7">
+          <h2 className="text-4xl text-white uppercase">Feedback</h2>
+        </section>
       </div>
 
-      <footer id="contatos" className="min-h-40 mt-5 bg-black bg-opacity-75 overflow-hidden text-white">
+      <footer id="contato" className="mt-7 p-7 overflow-hidden">
         <ol className="text-center">
           <li className="mb-4">
-            <h2 className="text-3xl mb-3">
-              Contatos
+            <h2 className="text-4xl uppercase">
+              Contato
             </h2>
           </li>
           <li className="mb-4 hover:text-orange-400">
@@ -62,7 +76,7 @@ export default function Home() {
           Voltar ao Topo
         </Link>
       </div>
-    </main>
+    </div>
 
   );
 };
