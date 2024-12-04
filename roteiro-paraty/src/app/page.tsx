@@ -25,7 +25,7 @@ export default function Home() {
               </Link>
             </p>
             <p className="float-left border border-black">
-              Tradicional II: <br />Ilha dos Cocos, Praia da Lula, Lagoa Azul e Praia da Conceição.
+              Tradicional II: <br />Roteiro: Ilha dos Cocos, Praia da Lula, Lagoa Azul e Praia da Conceição.
               <br />
               FOTOS FOTOS FOTOS FOTOS
               <br />
@@ -43,7 +43,7 @@ export default function Home() {
               </Link>
             </p>
             <p className="float-left border border-black">
-              Escuna de um andar: <br />Ilha dos Cocos, Saco da Velha, Lagoa Azul, Praia da Lula e Ilha Comprida.
+              Escuna de um andar: <br />Roteiro: Ilha dos Cocos, Saco da Velha, Lagoa Azul, Praia da Lula e Ilha Comprida.
               <br />
               FOTOS FOTOS FOTOS FOTOS
               <br />
