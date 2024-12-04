@@ -8,7 +8,7 @@ type NavbarLIProps = React.ComponentProps<"li">;
 
 const NavbarOL = ({ children, className, ...props }: NavbarOLProps) => {
   return (
-    <ol className={cn("mt-3 flex float-right text-xl font-bold", className)} {...props}>
+    <ol className={cn("mt-3 float-right text-xl font-bold", className)} {...props}>
       {children}
     </ol>
   )
@@ -26,10 +26,10 @@ export const Navbar = ({ className, ...props }: NavbarProps) => {
   return (
     <main>
 
-      <header className="flex justify-center w-full bg-black bg-opacity-50">
+      <header className="flex py-2 mx-8 text-center bg-black bg-opacity-50 rounded-xl">
 
         <Link href="nav"></Link>
-        <div className="flex float-left">
+        <div className="ml-3">
           <Image
             src="/assets/images/logo-roteiro.png"
             alt="Seu Roteiro em Paraty!"
@@ -37,7 +37,7 @@ export const Navbar = ({ className, ...props }: NavbarProps) => {
             height={100}
           />
         </div>
-        <nav className={cn("py-2 float-left", className)} {...props}>
+        <nav className={cn("py-2 float-right", className)} {...props}>
 
           <NavbarOL>
 
@@ -74,7 +74,7 @@ export const Navbar = ({ className, ...props }: NavbarProps) => {
             </NavbarLI>
             <NavbarLI>
               <Link href="#programas">
-                Programas Personalizados
+                Programas <br />Personalizados
               </Link>
             </NavbarLI>
             <NavbarLI>
@@ -84,7 +84,7 @@ export const Navbar = ({ className, ...props }: NavbarProps) => {
             </NavbarLI>
             <NavbarLI>
               <Link href="https://wa.me/+5524998793280" target="_blank">
-                Contate-nos e crie seu próprio roteiro!
+                Contate-nos <br />e crie seu próprio roteiro!
               </Link>
             </NavbarLI>
             <NavbarLI>
