@@ -31,30 +31,26 @@ p {
 }
 
 #quemsomosnos,
-#veleiro,
-#contato {
+#lancha {
 	background-color: #e5efdf;
 }
 #quemsomosnos h2,
 #quemsomosnos p,
-#veleiro h2,
-#veleiro p,
-#contato h2,
-#contato p {
+#lancha h2,
+#lancha p {
 	color: #91602a;
 }
 
 #escuna,
-#jeep {
+#traineira {
 	background-color: #91602a;
 }
-
-#lancha,
-#clientes {
+#jeep,
+#veleiro {
 	background-color: #82ac9d;
 }
 
 #programas,
-#feedback {
+#van {
 	background-color: #4f2f26;
 }

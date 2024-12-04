@@ -40,29 +40,10 @@ export const Navbar = ({ className, ...props }: NavbarProps) => {
         <nav className={cn("py-2 float-left", className)} {...props}>
 
           <NavbarOL>
-            <NavbarLI>
-              <Link href="#quemsomosnos">
-                Quem Somos Nós
-              </Link>
-            </NavbarLI>
+
             <NavbarLI>
               <Link href="#escuna">
                 Escuna
-              </Link>
-            </NavbarLI>
-            <NavbarLI>
-              <Link href="#lancha">
-                Lancha Privativa
-              </Link>
-            </NavbarLI>
-            <NavbarLI>
-              <Link href="#programas">
-                Programas Personalizados
-              </Link>
-            </NavbarLI>
-            <NavbarLI>
-              <Link href="#veleiro">
-                Veleiro Privativo
               </Link>
             </NavbarLI>
             <NavbarLI>
@@ -71,13 +52,39 @@ export const Navbar = ({ className, ...props }: NavbarProps) => {
               </Link>
             </NavbarLI>
             <NavbarLI>
-              <Link href="#clientes">
-                Clientes
+              <Link href="#van">
+                Van
               </Link>
             </NavbarLI>
             <NavbarLI>
-              <Link href="#feedback">
-                Feedback
+              <Link href="#lancha">
+                Lancha
+              </Link>
+            </NavbarLI>
+
+            <NavbarLI>
+              <Link href="#traineira">
+                Traineira
+              </Link>
+            </NavbarLI>
+            <NavbarLI>
+              <Link href="#veleiro">
+                Veleiro
+              </Link>
+            </NavbarLI>
+            <NavbarLI>
+              <Link href="#programas">
+                Programas Personalizados
+              </Link>
+            </NavbarLI>
+            <NavbarLI>
+              <Link href="#quemsomosnos">
+                Quem Somos Nós
+              </Link>
+            </NavbarLI>
+            <NavbarLI>
+              <Link href="https://wa.me/+5524998793280" target="_blank">
+                Contate-nos e crie seu próprio roteiro!
               </Link>
             </NavbarLI>
             <NavbarLI>

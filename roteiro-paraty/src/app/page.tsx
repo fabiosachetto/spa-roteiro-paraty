@@ -10,44 +10,70 @@ export default function Home() {
 
       <div className="text-center">
 
+
+
+        <section id="escuna" className="mt-7 p-7 text-white">
+          <h2 className="text-4xl uppercase">Escuna</h2>
+          <p>
+            Tradicional: Ilha dos Cocos, Praia da Lula, Ilha da Pescaria (Lagoa Azul de Dentro) e Praia Vermelha.
+            Tradicional II: Ilha dos Cocos, Praia da Lula, Lagoa Azul e Praia da Conceição.
+            Rota das Águas Claras: Ilha dos Cocos, Saco da Velha, Enseada da Preguiça (Lagoa Azul de Fora) e Praia da Conceição.
+            Escuna de um andar: Ilha dos Cocos, Saco da Velha, Lagoa Azul, Praia da Lula e Ilha Comprida.
+          </p>
+        </section>
+
+        <section id="jeep" className="mt-7 p-7 text-white">
+          <h2 className="text-4xl uppercase">Jeep (Cachoeiras)</h2>
+          <p>
+            Cachoeiras e Alambiques: Alambique Paratiana, Cachoeira da Usina + Cachoeira da Pedra Branca, Alambique Pedra Branca, Poço do Tarzan + Cachoeira do Tobogã e Queijaria.
+          </p>
+        </section>
+
+        <section id="van" className="mt-7 p-7 text-white">
+          <h2 className="text-4xl uppercase">Van (Trindade)</h2>
+          <p>
+            Trindade: Praia do Cepilho, Praia dos Ranchos, Praia do Meio, Praia do Cachadaço e Piscinas Naturais
+          </p>
+        </section>
+
+        <section id="lancha" className="mt-7 p-7">
+          <h2 className="text-4xl uppercase">Lancha (Privativa)</h2>
+          <p>
+            Colocar imagens futuramente
+          </p>
+        </section>
+
+        <section id="traineira" className="mt-7 p-7 text-white">
+          <h2 className="text-4xl uppercase">Traineira (Privativa)</h2>
+          <p>
+            Colocar imagens futuramente
+          </p>
+        </section>
+
+        <section id="veleiro" className="mt-7 p-7 text-white">
+          <h2 className="text-4xl uppercase">Veleiro (Privativo)</h2>
+          <p>
+            Colocar imagens futuramente
+          </p>
+        </section>
+
+        <section id="programas" className="mt-7 p-7 text-white">
+          <h2 className="text-4xl uppercase">Programas Personalizados</h2>
+          <p>
+            Colocar imagens futuramente
+          </p>
+        </section>
+
         <section id="quemsomosnos" className="mt-7 p-7">
           <h2 className="text-4xl uppercase">Quem Somos Nós</h2>
           <p className="">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros tortor, bibendum ac hendrerit et, finibus eu eros. Morbi laoreet quam at rutrum venenatis. Quisque eget orci eu sapien scelerisque efficitur nec auctor sem. Integer scelerisque velit sed mi sollicitudin ornare. Nam rhoncus, sem sit amet suscipit commodo, lorem tortor maximus dolor, et sodales ligula leo in odio. Phasellus feugiat commodo risus quis pharetra. Curabitur lobortis lacus ut eros mollis ultrices. Duis sit amet imperdiet diam. Vivamus volutpat nulla vel dui faucibus semper. Sed rhoncus diam quis orci hendrerit rutrum. Nam in ante in eros tempus posuere vel vitae arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus nec facilisis tortor.
           </p>
         </section>
-
-        <section id="escuna" className="mt-7 p-7">
-          <h2 className="text-4xl text-white uppercase">Escuna</h2>
-        </section>
-
-        <section id="lancha" className="mt-7 p-7">
-          <h2 className="text-4xl text-white uppercase">Lancha Privativa</h2>
-        </section>
-
-        <section id="programas" className="mt-7 p-7">
-          <h2 className="text-4xl text-white uppercase">Programas Personalizados</h2>
-        </section>
-
-        <section id="veleiro" className="mt-7 p-7">
-          <h2 className="text-4xl text-white uppercase">Veleiro Privativo</h2>
-        </section>
-
-        <section id="jeep" className="mt-7 p-7">
-          <h2 className="text-4xl text-white uppercase">Jeep (Cachoeiras)</h2>
-        </section>
-
-        <section id="clientes" className="mt-7 p-7">
-          <h2 className="text-4xl text-white uppercase">Clientes</h2>
-        </section>
-
-        <section id="feedback" className="mt-7 p-7">
-          <h2 className="text-4xl text-white uppercase">Feedback</h2>
-        </section>
       </div>
 
-      <footer id="contato" className="mt-7 p-7 overflow-hidden">
-        <ol className="text-center">
+      <footer id="contato" className="mt-7 p-7 overflow-hidden bg-black bg-opacity-50">
+        <ol className="text-center text-white">
           <li className="mb-4">
             <h2 className="text-4xl uppercase">
               Contato
