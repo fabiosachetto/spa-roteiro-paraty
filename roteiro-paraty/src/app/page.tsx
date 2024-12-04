@@ -12,14 +12,46 @@ export default function Home() {
 
 
 
-        <section id="escuna" className="mt-7 p-7 text-white">
+        <section id="escuna" className="flex mt-7 p-7 text-white">
           <h2 className="text-4xl uppercase">Escuna</h2>
-          <p>
-            Tradicional: Ilha dos Cocos, Praia da Lula, Ilha da Pescaria (Lagoa Azul de Dentro) e Praia Vermelha.
-            Tradicional II: Ilha dos Cocos, Praia da Lula, Lagoa Azul e Praia da Conceição.
-            Rota das Águas Claras: Ilha dos Cocos, Saco da Velha, Enseada da Preguiça (Lagoa Azul de Fora) e Praia da Conceição.
-            Escuna de um andar: Ilha dos Cocos, Saco da Velha, Lagoa Azul, Praia da Lula e Ilha Comprida.
-          </p>
+          <div className="clear-both block">
+            <p className="float-left border border-black">
+              Tradicional: <br />Roteiro: Ilha dos Cocos, Praia da Lula, Ilha da Pescaria e Praia da Conceição.
+              <br />
+              FOTOS FOTOS FOTOS FOTOS
+              <br />
+              <Link href="https://wa.me/+5524998793280" target="_blank">
+                Botão Reserve já!
+              </Link>
+            </p>
+            <p className="float-left border border-black">
+              Tradicional II: <br />Ilha dos Cocos, Praia da Lula, Lagoa Azul e Praia da Conceição.
+              <br />
+              FOTOS FOTOS FOTOS FOTOS
+              <br />
+              <Link href="https://wa.me/+5524998793280" target="_blank">
+                Botão Reserve já!
+              </Link>
+            </p>
+            <p className="float-left border border-black">
+              Rota das Águas Claras: <br />Roteiro: Ilha dos Cocos, Saco da Velha, Enseada da Preguiça e Praia da Conceição.
+              <br />
+              FOTOS FOTOS FOTOS FOTOS
+              <br />
+              <Link href="https://wa.me/+5524998793280" target="_blank">
+                Botão Reserve já!
+              </Link>
+            </p>
+            <p className="float-left border border-black">
+              Escuna de um andar: <br />Ilha dos Cocos, Saco da Velha, Lagoa Azul, Praia da Lula e Ilha Comprida.
+              <br />
+              FOTOS FOTOS FOTOS FOTOS
+              <br />
+              <Link href="https://wa.me/+5524998793280" target="_blank">
+                Botão Reserve já!
+              </Link>
+            </p>
+          </div>
         </section>
 
         <section id="jeep" className="mt-7 p-7 text-white">
