@@ -32,7 +32,7 @@ export default function Home() {
 
           <h2 className="text-4xl mb-5 uppercase">Escuna</h2>
 
-          <section>
+          <div>
             <div className="mb-5">
               <h3 className="text-2xl mb-5 uppercase font-bold">
                 Tradicional
@@ -63,11 +63,9 @@ export default function Home() {
             <Link href="https://wa.me/+5524998793280" target="_blank" className="bg-white text-black font-bold rounded-lg cursor-pointer p-2">
               Reserve já!
             </Link>
-          </section>
+          </div>
 
-          <div className="mb-5 mt-5">...</div>
-
-          <section>
+          {/* <div>
             <div className="mb-5">
               <h3 className="text-2xl mb-5 uppercase font-bold">
                 Tradicional II
@@ -98,7 +96,7 @@ export default function Home() {
             <Link href="https://wa.me/+5524998793280" target="_blank" className="bg-white text-black font-bold rounded-lg cursor-pointer p-2">
               Reserve já!
             </Link>
-          </section>
+          </div> */}
 
 
 
