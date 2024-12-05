@@ -29,6 +29,7 @@ export const Navbar = ({ className, ...props }: NavbarProps) => {
       <header className="flex py-2 mx-8 text-center bg-black bg-opacity-50 rounded-xl">
 
 
+        <Link href="nav"></Link>
         <div className="ml-3 float-left">
           <Image
             src="/assets/images/logo-roteiro.png"
@@ -37,7 +38,6 @@ export const Navbar = ({ className, ...props }: NavbarProps) => {
             height={100}
           />
         </div>
-        <Link href="nav"></Link>
 
         <nav className={cn("py-2 float-left", className)} {...props}>
 
