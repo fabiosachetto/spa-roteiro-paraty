@@ -30,27 +30,30 @@ p {
 	font-family: openSans, sans-serif;
 }
 
-#quemsomosnos,
-#lancha {
+#traineira,
+#veleiro,
+#quemsomos {
 	background-color: #e5efdf;
 }
-#quemsomosnos h2,
-#quemsomosnos p,
-#lancha h2,
-#lancha p {
+#quemsomos h2,
+#quemsomos p,
+#traineira h2,
+#traineira p,
+#veleiro h2,
+#veleiro p {
 	color: #91602a;
 }
 
 #escuna,
-#traineira {
+#jeep {
 	background-color: #91602a;
 }
-#jeep,
-#veleiro {
+
+#lancha {
 	background-color: #82ac9d;
 }
 
-#programas,
+#personalizado,
 #van {
 	background-color: #4f2f26;
 }
