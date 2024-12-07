@@ -92,7 +92,7 @@ export default function Escuna() {
             </div>
           </div>
         </div>
-        <Link href="https://wa.me/+5524998793280" target="_blank" className="bg-white text-black font-bold rounded-lg cursor-pointer p-2">
+        <Link href="https://wa.me/+5524998793280" target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
           Reserve já!
         </Link>
       </div>
