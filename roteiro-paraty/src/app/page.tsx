@@ -13,7 +13,7 @@ export default function Home() {
 
           <div className="inline-block">
             <Image
-              src="/assets/images/escuna.png"
+              src="/assets/images/escuna.jpeg"
               alt="Conheça Nossos Roteiros de Escunas"
               title="Conheça Nossos Roteiros de Escunas"
               width={379}
@@ -73,7 +73,7 @@ export default function Home() {
           <h2 className="text-4xl mb-5 uppercase">Jeep (Cachoeiras)</h2>
           <div className="inline-block">
             <Image
-              src="/assets/images/jeep.png"
+              src="/assets/images/jeep.jpeg"
               alt="Conheça Nossos Roteiros de Jeep"
               title="Conheça Nossos Roteiros de Jeep"
               width={379}
@@ -93,7 +93,7 @@ export default function Home() {
           <h2 className="text-4xl mb-5 uppercase">Van (Trindade)</h2>
           <div className="inline-block">
             <Image
-              src="/assets/images/van.png"
+              src="/assets/images/van.jpeg"
               alt="Conheça Nossos Roteiros de Van"
               title="Conheça Nossos Roteiros de Van"
               width={379}
