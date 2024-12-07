@@ -22,45 +22,6 @@ export default function Home() {
             />
           </div>
 
-          {/* <div className="clear-both block">
-            <p className="float-left border border-black">
-              Tradicional: <br />Roteiro: Ilha dos Cocos, Praia da Lula, Ilha da Pescaria e Praia da Conceição.
-              <br />
-              FOTOS FOTOS FOTOS FOTOS
-              <br />
-              <Link href="https://wa.me/+5524998793280" target="_blank">
-                Botão Reserve já!
-              </Link>
-            </p>
-            <p className="float-left border border-black">
-              Tradicional II: <br />Roteiro: Ilha dos Cocos, Praia da Lula, Lagoa Azul e Praia da Conceição.
-              <br />
-              FOTOS FOTOS FOTOS FOTOS
-              <br />
-              <Link href="https://wa.me/+5524998793280" target="_blank">
-                Botão Reserve já!
-              </Link>
-            </p>
-            <p className="float-left border border-black">
-              Rota das Águas Claras: <br />Roteiro: Ilha dos Cocos, Saco da Velha, Enseada da Preguiça e Praia da Conceição.
-              <br />
-              FOTOS FOTOS FOTOS FOTOS
-              <br />
-              <Link href="https://wa.me/+5524998793280" target="_blank">
-                Botão Reserve já!
-              </Link>
-            </p>
-            <p className="float-left border border-black">
-              Escuna de um andar: <br />Roteiro: Ilha dos Cocos, Saco da Velha, Lagoa Azul, Praia da Lula e Ilha Comprida.
-              <br />
-              FOTOS FOTOS FOTOS FOTOS
-              <br />
-              <Link href="https://wa.me/+5524998793280" target="_blank">
-                Botão Reserve já!
-              </Link>
-            </p>
-          </div>*/}
-
           <div className="mt-4">
             <Link href="/escuna" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
               Saiba Mais
@@ -196,8 +157,7 @@ export default function Home() {
           </p>
         </section>
       </div>
-    </div >
-
+    </div>
   );
 };
 
