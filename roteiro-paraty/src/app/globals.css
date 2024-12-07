@@ -31,29 +31,27 @@ p {
 }
 
 #traineira,
-#veleiro,
-#quemsomos {
+#escuna,
+#quemsomosnos {
 	background-color: #e5efdf;
 }
-#quemsomos h2,
-#quemsomos p,
+#escuna h2,
+#escuna p,
 #traineira h2,
 #traineira p,
-#veleiro h2,
-#veleiro p {
+#quemsomosnos h2,
+#quemsomosnos p {
 	color: #91602a;
 }
-
-#escuna,
 #jeep {
 	background-color: #91602a;
 }
-
-#lancha {
+#veleiro,
+#van {
 	background-color: #82ac9d;
 }
 
-#personalizado,
-#van {
+#programa,
+#lancha {
 	background-color: #4f2f26;
 }
