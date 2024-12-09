@@ -32,7 +32,7 @@ export default function Escuna() {
 
         <p className="mb-6 text-center inline-block">
           <AlertIcon className="w-5 h-5 float-left" />
-          <strong className="float-left"> Não é permitido embarcar com cooler e caixa de som!</strong>
+          <strong className="float-left contents"> Não é permitido embarcar com cooler e caixa de som!</strong>
         </p>
 
         <p><strong>Valor:</strong> R$110 por pessoa.</p>
