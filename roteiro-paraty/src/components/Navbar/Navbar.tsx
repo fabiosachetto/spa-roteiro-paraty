@@ -76,7 +76,7 @@ export const Navbar = ({ className, ...props }: NavbarProps) => {
           </NavbarLI>
           <NavbarLI>
             <Link href="/personalizado">
-              Programas <br />Personalizados
+              Roteiros <br />Personalizados
             </Link>
           </NavbarLI>
           <NavbarLI>

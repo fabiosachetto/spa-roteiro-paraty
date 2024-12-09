@@ -125,7 +125,7 @@ export default function Escuna() {
 
         <p><strong>Serviços:</strong> Bar e restaurante a bordo, música ao vivo e fotógrafo profissional.</p>
 
-        <p className="mb-6"><strong>Não é permitido embarcar com cooler e caixa de som!</strong></p>
+        <p className="mb-6"><strong>OBS: Não é permitido embarcar com cooler e caixa de som!</strong></p>
 
         <p><strong>Valor:</strong> R$100 por pessoa.</p>
 
