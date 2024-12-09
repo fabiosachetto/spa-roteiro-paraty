@@ -15,8 +15,8 @@ export default function Traineira() {
             src="/assets/images/traineira-descricao.jpeg"
             alt="Traineira Privativa: Roteiros e horários definidos pelo cliente."
             title="Traineira Privativa: Roteiros e horários definidos pelo cliente."
-            width={500}
-            height={333}
+            width={350}
+            height={467}
             className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
