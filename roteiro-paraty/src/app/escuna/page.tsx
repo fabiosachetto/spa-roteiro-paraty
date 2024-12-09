@@ -74,7 +74,7 @@ export default function Escuna() {
 
       <div className="py-7 border-t border-double border-t-amber-900">
         <h3 className="text-2xl mb-5 uppercase font-bold">
-          Águas Claras
+          Rota das Águas Claras
         </h3>
         <div className="inline-block">
           <Image
@@ -110,7 +110,7 @@ export default function Escuna() {
         </h3>
         <div className="inline-block">
           <Image
-            src="/assets/images/escuna.jpeg"
+            src="/assets/images/escuna-um-andar.jpeg"
             alt="Escuna de um andar: Ilha dos Cocos, Saco da Velha, Lagoa Azul, Praia da Lula e Ilha Comprida."
             title="Escuna de um andar: Ilha dos Cocos, Saco da Velha, Lagoa Azul, Praia da Lula e Ilha Comprida."
             width={500}
@@ -119,9 +119,15 @@ export default function Escuna() {
           />
         </div>
 
-        <p>
-          Roteiro: Ilha dos Cocos, Saco da Velha, Lagoa Azul, Praia da Lula e Ilha Comprida.
-        </p>
+        <p className="mb-6"><strong>Roteiro:</strong> Ilha dos Cocos, Saco da Velha, Lagoa Azul, Ilha Comprida e Praia da Lula.</p>
+
+        <p><strong>Início:</strong> 9h30 | <strong>Retorno:</strong> 15h30</p>
+
+        <p><strong>Serviços:</strong> Bar e restaurante a bordo, música ao vivo e fotógrafo profissional.</p>
+
+        <p className="mb-6"><strong>Não é permitido embarcar com cooler e caixa de som!</strong></p>
+
+        <p><strong>Valor:</strong> R$100 por pessoa.</p>
 
         <div className="mt-5">
           <Link href="https://wa.me/+5524998793280" target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
