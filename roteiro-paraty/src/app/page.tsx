@@ -31,7 +31,7 @@ export default function Home() {
 
 
         <section id="jeep" className="mt-7 p-7 text-white">
-          <h2 className="text-4xl mb-5 uppercase">Jeep (Cachoeiras)</h2>
+          <h2 className="text-4xl mb-5 uppercase">Jeep</h2>
           <div className="inline-block">
             <Image
               src="/assets/images/jeep.jpeg"
