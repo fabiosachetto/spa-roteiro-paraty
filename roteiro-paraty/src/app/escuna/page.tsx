@@ -1,3 +1,4 @@
+import { AlertIcon } from "@/components/Icons/Icons";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -29,7 +30,10 @@ export default function Escuna() {
 
         <p><strong>Serviços:</strong> Bar e restaurante a bordo, música ao vivo, fotógrafo profissional, escorregador e ducha de água doce.</p>
 
-        <p className="mb-6"><strong>Não é permitido embarcar com cooler e caixa de som!</strong></p>
+        <p className="mb-6 text-center inline-block">
+          <AlertIcon className="w-5 h-5 float-left" />
+          <strong className="float-left"> Não é permitido embarcar com cooler e caixa de som!</strong>
+        </p>
 
         <p><strong>Valor:</strong> R$110 por pessoa.</p>
 
