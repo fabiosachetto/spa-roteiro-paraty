@@ -9,14 +9,14 @@ export default function Jeep() {
 
       <div className="pb-7">
         <h3 className="text-2xl mb-5 uppercase font-bold">
-          Cachoeiras
+          Cachoeiras e Alambiques
         </h3>
 
         <div className="inline-block">
           <Image
             src="/assets/images/jeep.jpeg"
-            alt="Cachoeiras: Alambique Paratiana, Cachoeira da Usina + Cachoeira da Pedra Branca, Alambique Pedra Branca, Poço do Tarzan + Cachoeira do Tobogã, Casa de Farinha e Queijaria."
-            title="Cachoeiras: Alambique Paratiana, Cachoeira da Usina + Cachoeira da Pedra Branca, Alambique Pedra Branca, Poço do Tarzan + Cachoeira do Tobogã, Casa de Farinha e Queijaria."
+            alt="Cachoeiras e Alambiques: Alambique Paratiana, Cachoeira da Usina + Cachoeira da Pedra Branca, Alambique Pedra Branca, Poço do Tarzan + Cachoeira do Tobogã, Casa de Farinha e Queijaria."
+            title="Cachoeiras e Alambiques: Alambique Paratiana, Cachoeira da Usina + Cachoeira da Pedra Branca, Alambique Pedra Branca, Poço do Tarzan + Cachoeira do Tobogã, Casa de Farinha e Queijaria."
             width={500}
             height={333}
             className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
