@@ -1,4 +1,4 @@
-import { AlertIcon } from "@/components/Icons/Icons";
+import { AlertIcon, TimerIcon } from "@/components/Icons/Icons";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -26,12 +26,15 @@ export default function Escuna() {
 
         <p className="mb-6"><strong>Roteiro:</strong> Ilha dos Cocos, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha.</p>
 
-        <p><strong>Início:</strong> 11h | <strong>Retorno:</strong> 17h</p>
+        <p className="inline-block">
+          <TimerIcon className="w-4 h-4 mt-1 mr-2 float-left" />
+          <strong>Início:</strong> 11h | <strong>Retorno:</strong> 17h
+        </p>
 
         <p><strong>Serviços:</strong> Bar e restaurante a bordo, música ao vivo, fotógrafo profissional, escorregador e ducha de água doce.</p>
 
-        <p className="mb-6 text-center inline-block">
-          <AlertIcon className="w-5 h-5 float-left" />
+        <p className="mb-6 inline-block">
+          <AlertIcon className="w-5 h-5 ml-2 float-left" />
           <strong className="float-left contents"> Não é permitido embarcar com cooler e caixa de som!</strong>
         </p>
 
