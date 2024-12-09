@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Jeep() {
   return (
 
-    <section id="jeep" className="mt-7 p-7 text-white text-center">
+    <section id="jeep" className="mt-7 pt-7 text-white text-center">
       <h2 className="text-4xl mb-5 uppercase">Jeep</h2>
 
       <div className="pb-7">
@@ -49,8 +49,8 @@ export default function Jeep() {
             src="/assets/images/jeep-tres-em-um.jpeg"
             alt="Roteiro 3 em 1 (Ilha do Cedro): Praia do Iriri, Ilha do Cedro e Cachoeira do Iriri."
             title="Roteiro 3 em 1 (Ilha do Cedro): Praia do Iriri, Ilha do Cedro e Cachoeira do Iriri."
-            width={500}
-            height={333}
+            width={360}
+            height={480}
             className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
@@ -81,8 +81,8 @@ export default function Jeep() {
             src="/assets/images/jeep-ilha-cedro.jpeg"
             alt="Ilha do Cedro: Praia da Pitanga e Ilha do Cedro."
             title="Ilha do Cedro: Praia da Pitanga e Ilha do Cedro."
-            width={500}
-            height={333}
+            width={360}
+            height={480}
             className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
@@ -103,7 +103,5 @@ export default function Jeep() {
         </div>
       </div>
     </section>
-
-
   )
 }

@@ -57,8 +57,8 @@ export default function Home() {
               src="/assets/images/van.jpeg"
               alt="Conheça Nossos Roteiros de Van"
               title="Conheça Nossos Roteiros de Van"
-              width={500}
-              height={333}
+              width={350}
+              height={467}
               className="object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
             />
           </div>
@@ -97,8 +97,8 @@ export default function Home() {
               src="/assets/images/traineira.jpeg"
               alt="Conheça Nossos Roteiros de Traineira"
               title="Conheça Nossos Roteiros de Traineira"
-              width={500}
-              height={333}
+              width={360}
+              height={480}
               className="object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
             />
           </div>

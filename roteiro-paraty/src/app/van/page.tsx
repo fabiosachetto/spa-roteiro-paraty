@@ -16,8 +16,8 @@ export default function Van() {
             src="/assets/images/van-trindade.jpeg"
             alt="Trindade: Praia do Cepilho, Praia dos Ranchos, Praia do Meio, Praia do Cachadaço e Piscinas Naturais."
             title="Trindade: Praia do Cepilho, Praia dos Ranchos, Praia do Meio, Praia do Cachadaço e Piscinas Naturais."
-            width={500}
-            height={333}
+            width={350}
+            height={467}
             className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
