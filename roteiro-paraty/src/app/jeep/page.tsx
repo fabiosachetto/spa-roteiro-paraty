@@ -30,7 +30,7 @@ export default function Jeep() {
         <p className="mb-6"><strong>O embarque e desembarque é realizado na hospedagem do cliente. O almoço ocorre no Restaurante do Poço do Tarzan. Há degustação de cachaça gratuita nos alambiques, além de visita guiada.</strong></p>
 
         <p><strong>Valor:</strong> R$100 por pessoa.</p>
-        <p><strong>(É cobrado R$10 por pessoa na entrada da Cachoeira da Pedra Branca que deve ser pago na portaria ao ingressar)</strong></p>
+        <p><strong>OBS: (É cobrado R$10 por pessoa na entrada da Cachoeira da Pedra Branca que deve ser pago na portaria ao ingressar.)</strong></p>
 
         <div className="mt-5 mb-5">
           <Link href="https://wa.me/+5524998793280" target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
@@ -64,7 +64,7 @@ export default function Jeep() {
         <p><strong>Valor:</strong> R$250 por pessoa.</p>
         {/* <p><strong>(é cobrado R$10 por pessoa na entrada da Cachoeira da Pedra Branca que deve ser pago na portaria ao ingressar)</strong></p> */}
 
-        <div className="mt-5">
+        <div className="mt-5 mb-5">
           <Link href="https://wa.me/+5524998793280" target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
             Reserve já!
           </Link>
