@@ -14,7 +14,7 @@ export default function Escuna() {
         </h3>
         <div className="inline-block">
           <Image
-            src="/assets/images/escuna.jpeg"
+            src="/assets/images/escuna-tradicional.jpeg"
             alt="Tradicional: Ilha dos Cocos, Praia da Lula, Ilha da Pescaria e Praia da Conceição."
             title="Tradicional: Ilha dos Cocos, Praia da Lula, Ilha da Pescaria e Praia da Conceição."
             width={500}
@@ -23,9 +23,15 @@ export default function Escuna() {
           />
         </div>
 
-        <p>
-          Roteiro: Ilha dos Cocos, Praia da Lula, Ilha da Pescaria e Praia da Conceição.
-        </p>
+        <p><strong>Roteiro:</strong> Ilha dos Cocos, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha.</p>
+
+        <p><strong>Início:</strong> 11h | <strong>Retorno:</strong> 17h</p>
+
+        <p><strong>Serviços:</strong> Bar e restaurante a bordo, música ao vivo, fotógrafo profissional, ducha de água doce.</p>
+
+        <p><strong>Não é permitido embarcar com cooler e caixa de som!</strong></p>
+
+        <p><strong>Valor:</strong> R$110 por pessoa (escuna de dois andares)</p>
 
         <div className="mt-5 mb-5">
           <Link href="https://wa.me/+5524998793280" target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
@@ -50,7 +56,7 @@ export default function Escuna() {
         </div>
 
         <p>
-          Roteiro: Ilha dos Cocos, Praia da Lula, Lagoa Azul e Praia da Conceição.
+          <strong>Roteiro:</strong> Ilha dos Cocos, Praia da Lula, Lagoa Azul e Praia da Conceição.
         </p>
 
         <div className="mt-5 mb-5">
@@ -111,6 +117,6 @@ export default function Escuna() {
           </Link>
         </div>
       </div>
-    </section>
+    </section >
   )
 }
