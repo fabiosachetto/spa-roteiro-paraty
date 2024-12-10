@@ -8,7 +8,7 @@ export default function Van() {
     <section id="van" className="mt-7 pt-7 text-white text-center">
       <h2 className="text-4xl mb-5 uppercase">Van</h2>
 
-      <div className="pb-7">
+      <div className="pb-7 px-3">
         <h3 className="text-2xl mb-5 uppercase font-bold">
           Trindade
         </h3>
@@ -17,8 +17,8 @@ export default function Van() {
             src="/assets/images/van-trindade.jpeg"
             alt="Trindade: Praia do Cepilho, Praia dos Ranchos, Praia do Meio, Praia do Cachadaço e Piscinas Naturais."
             title="Trindade: Praia do Cepilho, Praia dos Ranchos, Praia do Meio, Praia do Cachadaço e Piscinas Naturais."
-            width={350}
-            height={467}
+            width={300}
+            height={400}
             className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>

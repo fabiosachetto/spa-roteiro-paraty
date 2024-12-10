@@ -18,8 +18,8 @@ export default function Escuna() {
             src="/assets/images/escuna-tradicional.jpeg"
             alt="Tradicional: Ilha dos Cocos, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha."
             title="Tradicional: Ilha dos Cocos, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha."
-            width={500}
-            height={333}
+            width={300}
+            height={199}
             className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
@@ -56,8 +56,8 @@ export default function Escuna() {
             src="/assets/images/escuna-tradicional-ii.jpeg"
             alt="Tradicional II: Ilha dos Cocos, Praia da Conceição, Lagoa Azul e Praia da Lula."
             title="Tradicional II: Ilha dos Cocos, Praia da Conceição, Lagoa Azul e Praia da Lula."
-            width={500}
-            height={333}
+            width={300}
+            height={169}
             className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
@@ -94,8 +94,8 @@ export default function Escuna() {
             src="/assets/images/escuna-aguas.jpeg"
             alt="Rota das Águas Claras: Ilha dos Cocos, Praia do Saco da Velha, Lagoa Azul e Praia da Conceição."
             title="Rota das Águas Claras: Ilha dos Cocos, Praia do Saco da Velha, Lagoa Azul e Praia da Conceição."
-            width={500}
-            height={333}
+            width={300}
+            height={169}
             className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
@@ -132,8 +132,8 @@ export default function Escuna() {
             src="/assets/images/escuna-um-andar.jpeg"
             alt="Escuna de um andar: Ilha dos Cocos, Saco da Velha, Lagoa Azul, Ilha Comprida e Praia da Lula."
             title="Escuna de um andar: Ilha dos Cocos, Saco da Velha, Lagoa Azul, Ilha Comprida e Praia da Lula."
-            width={500}
-            height={333}
+            width={300}
+            height={169}
             className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>

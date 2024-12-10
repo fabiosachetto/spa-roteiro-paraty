@@ -16,8 +16,8 @@ export default function Home() {
               src="/assets/images/escuna.jpeg"
               alt="Conheça Nossos Roteiros de Escunas"
               title="Conheça Nossos Roteiros de Escunas"
-              width={500}
-              height={333}
+              width={300}
+              height={200}
               className="object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
             />
           </div>
@@ -37,8 +37,8 @@ export default function Home() {
               src="/assets/images/jeep.jpeg"
               alt="Conheça Nossos Roteiros de Jeep"
               title="Conheça Nossos Roteiros de Jeep"
-              width={500}
-              height={333}
+              width={300}
+              height={200}
               className="object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
             />
           </div>
@@ -57,8 +57,8 @@ export default function Home() {
               src="/assets/images/van.jpeg"
               alt="Conheça Nossos Roteiros de Van"
               title="Conheça Nossos Roteiros de Van"
-              width={350}
-              height={467}
+              width={300}
+              height={400}
               className="object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
             />
           </div>
@@ -77,8 +77,8 @@ export default function Home() {
               src="/assets/images/lancha.png"
               alt="Conheça Nossos Roteiros de Lancha"
               title="Conheça Nossos Roteiros de Lancha"
-              width={500}
-              height={333}
+              width={300}
+              height={226}
               className="object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
             />
           </div>
@@ -97,8 +97,8 @@ export default function Home() {
               src="/assets/images/traineira.jpeg"
               alt="Conheça Nossos Roteiros de Traineira"
               title="Conheça Nossos Roteiros de Traineira"
-              width={360}
-              height={480}
+              width={300}
+              height={400}
               className="object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
             />
           </div>
@@ -117,8 +117,8 @@ export default function Home() {
               src="/assets/images/veleiro.png"
               alt="Conheça Nossos Roteiros de Veleiro"
               title="Conheça Nossos Roteiros de Veleiro"
-              width={500}
-              height={333}
+              width={300}
+              height={214}
               className="object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
             />
           </div>
@@ -137,8 +137,8 @@ export default function Home() {
               src="/assets/images/personalizado.png"
               alt="Conheça Nossos Roteiros de Passeios Personalizados"
               title="Conheça Nossos Roteiros de Passeios Personalizados"
-              width={500}
-              height={333}
+              width={300}
+              height={303}
               className="object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
             />
           </div>

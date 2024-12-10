@@ -11,8 +11,8 @@ export default function Personalizado() {
           src="/assets/images/personalizado.png"
           alt="Conheça Nossos Roteiros de Passeios Personalizados"
           title="Conheça Nossos Roteiros de Passeios Personalizados"
-          width={500}
-          height={333}
+          width={300}
+          height={303}
           className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
         />
       </div>
