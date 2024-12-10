@@ -1,4 +1,4 @@
-import { AlertIcon, TimerIcon } from "@/components/Icons/Icons";
+import { AlertIcon, ClockIcon } from "@/components/Icons/Icons";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -27,15 +27,15 @@ export default function Escuna() {
         <p className="mb-6"><strong>Roteiro:</strong> Ilha dos Cocos, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha.</p>
 
         <p className="inline-block">
-          <TimerIcon className="w-4 h-4 mt-1 mr-2 float-left" />
+          <ClockIcon className="w-4 h-4 mr-2 float-left" />
           <strong>Início:</strong> 11h | <strong>Retorno:</strong> 17h
         </p>
 
         <p><strong>Serviços:</strong> Bar e restaurante a bordo, música ao vivo, fotógrafo profissional, escorregador e ducha de água doce.</p>
 
         <p className="mb-6 inline-block">
-          <AlertIcon className="w-5 h-5 ml-2 float-left" />
-          <strong className="float-left contents"> Não é permitido embarcar com cooler e caixa de som!</strong>
+          <AlertIcon className="w-5 h-5 mr-2 float-left" />
+          <strong className="float-left contents">OBS: Não é permitido embarcar com cooler e caixa de som!</strong>
         </p>
 
         <p><strong>Valor:</strong> R$110 por pessoa.</p>
@@ -64,11 +64,17 @@ export default function Escuna() {
 
         <p className="mb-6"><strong>Roteiro:</strong> Ilha dos Cocos, Praia da Conceição, Lagoa Azul e Praia da Lula.</p>
 
-        <p><strong>Início:</strong> 11h | <strong>Retorno:</strong> 17h</p>
+        <p className="inline-block">
+          <ClockIcon className="w-4 h-4 mr-2 float-left" />
+          <strong>Início:</strong> 11h | <strong>Retorno:</strong> 17h
+        </p>
 
         <p><strong>Serviços:</strong> Bar e restaurante a bordo, música ao vivo e fotógrafo profissional.</p>
 
-        <p className="mb-6"><strong>Não é permitido embarcar com cooler e caixa de som!</strong></p>
+        <p className="mb-6 inline-block">
+          <AlertIcon className="w-5 h-5 mx-2 float-left" />
+          <strong className="float-left contents">OBS: Não é permitido embarcar com cooler e caixa de som!</strong>
+        </p>
 
         <p><strong>Valor:</strong> R$110 por pessoa.</p>
 
@@ -96,11 +102,17 @@ export default function Escuna() {
 
         <p className="mb-6"><strong>Roteiro:</strong> Ilha dos Cocos, Praia do Saco da Velha, Lagoa Azul e Praia da Conceição.</p>
 
-        <p><strong>Início:</strong> 11h | <strong>Retorno:</strong> 17h</p>
+        <p className="inline-block">
+          <ClockIcon className="w-4 h-4 mr-2 float-left" />
+          <strong>Início:</strong> 11h | <strong>Retorno:</strong> 17h
+        </p>
 
         <p><strong>Serviços:</strong> Bar e restaurante a bordo, música ao vivo, fotógrafo profissional, escorregador e ducha de água doce.</p>
 
-        <p className="mb-6"><strong>Não é permitido embarcar com cooler e caixa de som!</strong></p>
+        <p className="mb-6 inline-block">
+          <AlertIcon className="w-5 h-5 mx-2 float-left" />
+          <strong className="float-left contents">OBS: Não é permitido embarcar com cooler e caixa de som!</strong>
+        </p>
 
         <p><strong>Valor:</strong> R$110 por pessoa.</p>
 
@@ -128,11 +140,17 @@ export default function Escuna() {
 
         <p className="mb-6"><strong>Roteiro:</strong> Ilha dos Cocos, Saco da Velha, Lagoa Azul, Ilha Comprida e Praia da Lula.</p>
 
-        <p><strong>Início:</strong> 9h30 | <strong>Retorno:</strong> 15h30</p>
+        <p className="inline-block">
+          <ClockIcon className="w-4 h-4 mr-2 float-left" />
+          <strong>Início:</strong> 9h30 | <strong>Retorno:</strong> 15h30
+        </p>
 
         <p><strong>Serviços:</strong> Bar e restaurante a bordo, música ao vivo e fotógrafo profissional.</p>
 
-        <p className="mb-6"><strong>OBS: Não é permitido embarcar com cooler e caixa de som!</strong></p>
+        <p className="mb-6 inline-block">
+          <AlertIcon className="w-5 h-5 mx-2 float-left" />
+          <strong className="float-left contents">OBS: Não é permitido embarcar com cooler e caixa de som!</strong>
+        </p>
 
         <p><strong>Valor:</strong> R$100 por pessoa.</p>
 
