@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -11,7 +12,7 @@ export const Navbar = () => {
 
     if (isOpen) {
       menuClasses = [
-        "flex absolute top-16 bg-gray-800 w-full p-4 left-0 gap-4 flex-col"
+        "flex absolute top-28 bg-gray-800 w-full p-4 left-0 gap-4 flex-col"
       ];
     } else {
       menuClasses = [
@@ -25,9 +26,20 @@ export const Navbar = () => {
   return (
     <nav className="bg-gray-800 text-white p-4 sm:p-6 md:flex md:justify-between md:items-center">
       <div className="container mx-auto flex justify-between items-center">
-        <a href="" className="text-2xl font-bold">
+        {/* <a href="/" className="text-2xl font-bold">
           Seu Roteiro
-        </a>
+        </a> */}
+
+        <Link href="/">
+          <div className="ml-3 float-left">
+            <Image
+              src="/assets/images/logo-roteiro.png"
+              alt="Seu Roteiro em Paraty!"
+              width={100}
+              height={100}
+            />
+          </div>
+        </Link>
 
         <div className={getMenuClasses()}>
           <Link href="/" className="mx-3 hover:text-gray-300">
