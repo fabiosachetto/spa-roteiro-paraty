@@ -1,103 +1,85 @@
-import { cn } from "@/helpers/cn";
-import Image from "next/image";
+"use client";
 import Link from "next/link";
+import { useState } from "react";
 
-type NavbarProps = React.ComponentProps<"nav">;
-type NavbarOLProps = React.ComponentProps<"ol">;
-type NavbarLIProps = React.ComponentProps<"li">;
+export const Navbar = () => {
 
-const NavbarOL = ({ children, className, ...props }: NavbarOLProps) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  function getMenuClasses() {
+    let menuClasses = [];
+
+    if (isOpen) {
+      menuClasses = [
+        "flex absolute top-16 bg-gray-800 w-full p-4 left-0 gap-4 flex-col"
+      ];
+    } else {
+      menuClasses = [
+        "hidden md:flex"
+      ];
+    };
+
+    return menuClasses.join("");
+  };
+
   return (
-    <ol className={cn("mt-3 float-right text-xl font-bold", className)} {...props}>
-      {children}
-    </ol>
-  )
-};
+    <nav className="bg-gray-800 text-white p-4 sm:p-6 md:flex md:justify-between md:items-center">
+      <div className="container mx-auto flex justify-between items-center">
+        <a href="" className="text-2xl font-bold">
+          Seu Roteiro
+        </a>
 
-const NavbarLI = ({ children, className, ...props }: NavbarLIProps) => {
-  return (
-    <li className={cn("float-left mr-3 hover:text-orange-400", className)} {...props}>
-      {children}
-    </li>
-  )
-}
-
-export const Navbar = ({ className, ...props }: NavbarProps) => {
-  return (
-    <header className="flex py-2 mx-8 text-center bg-black bg-opacity-50 rounded-xl">
-
-
-      {/* <Link href="nav"></Link> */}
-      <Link href="/">
-        <div className="ml-3 float-left">
-          <Image
-            src="/assets/images/logo-roteiro.png"
-            alt="Seu Roteiro em Paraty!"
-            width={100}
-            height={100}
-          />
+        <div className={getMenuClasses()}>
+          <Link href="/" className="mx-3 hover:text-gray-300">
+            Home
+          </Link>
+          <Link href="/escuna" className="mx-3 hover:text-gray-300">
+            Escunas
+          </Link>
+          <Link href="/jeep" className="mx-3 hover:text-gray-300">
+            Jeep
+          </Link>
+          <Link href="/van" className="mx-3 hover:text-gray-300">
+            Van
+          </Link>
+          <Link href="/lancha" className="mx-3 hover:text-gray-300">
+            Lancha
+          </Link>
+          <Link href="/traineira" className="mx-3 hover:text-gray-300">
+            Traineira
+          </Link>
+          <Link href="/veleiro" className="mx-3 hover:text-gray-300">
+            Veleiro
+          </Link>
+          <Link href="/personalizado" className="mx-3 hover:text-gray-300">
+            Roteiros Personalizados
+          </Link>
+          <Link href="/quemsomos" className="mx-3 hover:text-gray-300">
+            Quem Somos Nós
+          </Link>
+          <Link href="https://wa.me/+5524998793280" target="_blank" className="mx-3 hover:text-gray-300">
+            Contate-nos e crie seu próprio roteiro!
+          </Link>
+          <Link href="/contato" className="mx-3 hover:text-gray-300">
+            Contato
+          </Link>
         </div>
-      </Link>
 
-      <nav className={cn("py-2 float-left", className)} {...props}>
-
-        <NavbarOL>
-
-          <NavbarLI>
-            <Link href="/escuna">
-              Escuna
-            </Link>
-          </NavbarLI>
-          <NavbarLI>
-            <Link href="/jeep">
-              Jeep
-            </Link>
-          </NavbarLI>
-          <NavbarLI>
-            <Link href="/van">
-              Van
-            </Link>
-          </NavbarLI>
-          <NavbarLI>
-            <Link href="/lancha">
-              Lancha
-            </Link>
-          </NavbarLI>
-
-          <NavbarLI>
-            <Link href="/traineira">
-              Traineira
-            </Link>
-          </NavbarLI>
-          <NavbarLI>
-            <Link href="/veleiro">
-              Veleiro
-            </Link>
-          </NavbarLI>
-          <NavbarLI>
-            <Link href="/personalizado">
-              Roteiros <br />Personalizados
-            </Link>
-          </NavbarLI>
-          <NavbarLI>
-            <Link href="/quemsomos">
-              Quem Somos Nós
-            </Link>
-          </NavbarLI>
-          <NavbarLI>
-            <Link href="https://wa.me/+5524998793280" target="_blank">
-              Contate-nos <br />e crie seu próprio roteiro!
-            </Link>
-          </NavbarLI>
-          <NavbarLI>
-            <Link href="/contato">
-              Contato
-            </Link>
-          </NavbarLI>
-        </NavbarOL>
-      </nav>
-
-
-    </header>
+        <div className="md:hidden flex items-center">
+          <button onClick={() => {
+            setIsOpen(!isOpen);
+          }}
+          >
+            <svg height="24" id="Layer_1" viewBox="0 0 512 512" width="24" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+              {isOpen ? (
+                <path fill="#ffffff" d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z" />
+              ) : (
+                <><path fill="#ffffff" d="M441.13,166.52h-372a15,15,0,1,1,0-30h372a15,15,0,0,1,0,30Z" /><path fill="#ffffff" d="M441.13,279.72h-372a15,15,0,1,1,0-30h372a15,15,0,0,1,0,30Z" /><path fill="#ffffff" d="M441.13,392.92h-372a15,15,0,1,1,0-30h372a15,15,0,0,1,0,30Z" /></>
+              )}
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
   )
 }
