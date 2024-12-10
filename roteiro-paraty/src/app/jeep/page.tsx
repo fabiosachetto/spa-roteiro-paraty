@@ -52,7 +52,7 @@ export default function Jeep() {
         </div>
       </div>
 
-      <div className="py-7 border-t border-double border-t-white">
+      <div className="py-7 px-3 border-t border-double border-t-white">
         <h3 className="text-2xl mb-5 uppercase font-bold">
           Roteiro 3 em 1 (Ilha do Cedro)
         </h3>
@@ -79,7 +79,7 @@ export default function Jeep() {
         </div>
       </div>
 
-      <div className="py-7 border-t border-double border-t-white">
+      <div className="py-7 px-3 border-t border-double border-t-white">
         <h3 className="text-2xl mb-5 uppercase font-bold">
           Ilha do Cedro
         </h3>
