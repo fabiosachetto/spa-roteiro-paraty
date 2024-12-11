@@ -35,7 +35,7 @@ export default function Escuna() {
 
         <p className="mb-6 inline-block">
           <AlertIcon className="w-5 h-5 mr-2 float-left" />
-          <strong className="float-left contents">OBS: Não é permitido embarcar com cooler e caixa de som!</strong>
+          <strong className="float-left contents">Não é permitido embarcar com cooler e caixa de som!</strong>
         </p>
 
         <p><strong>Valor:</strong> R$110 por pessoa.</p>
@@ -73,7 +73,7 @@ export default function Escuna() {
 
         <p className="mb-6 inline-block">
           <AlertIcon className="w-5 h-5 mx-2 float-left" />
-          <strong className="float-left contents">OBS: Não é permitido embarcar com cooler e caixa de som!</strong>
+          <strong className="float-left contents">Não é permitido embarcar com cooler e caixa de som!</strong>
         </p>
 
         <p><strong>Valor:</strong> R$110 por pessoa.</p>
@@ -111,7 +111,7 @@ export default function Escuna() {
 
         <p className="mb-6 inline-block">
           <AlertIcon className="w-5 h-5 mx-2 float-left" />
-          <strong className="float-left contents">OBS: Não é permitido embarcar com cooler e caixa de som!</strong>
+          <strong className="float-left contents">Não é permitido embarcar com cooler e caixa de som!</strong>
         </p>
 
         <p><strong>Valor:</strong> R$110 por pessoa.</p>
@@ -149,7 +149,7 @@ export default function Escuna() {
 
         <p className="mb-6 inline-block">
           <AlertIcon className="w-5 h-5 mx-2 float-left" />
-          <strong className="float-left contents">OBS: Não é permitido embarcar com cooler e caixa de som!</strong>
+          <strong className="float-left contents">Não é permitido embarcar com cooler e caixa de som!</strong>
         </p>
 
         <p><strong>Valor:</strong> R$100 por pessoa.</p>
