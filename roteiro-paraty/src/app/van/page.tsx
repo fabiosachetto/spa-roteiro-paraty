@@ -25,22 +25,20 @@ export default function Van() {
 
         <p className="mb-6"><strong>Roteiro:</strong> Praia do Cepilho, Praia dos Ranchos, Praia do Meio, Praia do Cachadaço e Piscinas Naturais.</p>
 
-        <p className="inline-block">
+        <p className="table m-auto">
           <ClockIcon className="w-4 h-4 mr-2 float-left" />
           <strong>Início:</strong> 10h | <strong>Retorno:</strong> 16h
         </p>
 
-        <div>
-          <p className="mb-6 inline-block">
-            <AlertIcon className="w-5 h-5 mr-2 float-left" />
-            <strong className="float-left contents">O embarque e desembarque é realizado na hospedagem do cliente. O almoço ocorre no Restaurante Nascer do Sol na Praia dos Ranchos.</strong>
-          </p>
-        </div>
+        <p className="mb-6 inline-block">
+          <AlertIcon className="w-5 h-5 float-left" />
+          <strong className="float-left contents">O embarque e desembarque é realizado na hospedagem do cliente. O almoço ocorre no Restaurante Nascer do Sol na Praia dos Ranchos.</strong>
+        </p>
 
         <p><strong>Valor:</strong> R$150 por pessoa.</p>
 
         <p className="mb-6 inline-block">
-          <AlertIcon className="w-5 h-5 mr-2 float-left" />
+          <AlertIcon className="w-5 h-5 ml-1 float-left" />
           <strong className="float-left contents">Poderão ser cobradas tarifas adicionais para translado de bote para as Piscinas Naturais.</strong>
         </p>
 
