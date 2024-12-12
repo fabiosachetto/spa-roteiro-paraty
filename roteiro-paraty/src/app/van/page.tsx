@@ -4,13 +4,14 @@ import Link from "next/link";
 
 export default function Van() {
   return (
-    <section id="van" className="mt-7 pt-7 text-white text-center">
+    <section id="van" className="mt-7 p-7 text-white text-center">
       <h2 className="text-4xl mb-5 uppercase">Van</h2>
 
-      <div className="pb-7 px-3">
+      <div className="pb-7">
         <h3 className="text-2xl mb-5 uppercase font-bold">
           Trindade
         </h3>
+        
         <div className="inline-block">
           <Image
             src="/assets/images/van-trindade.jpeg"

@@ -12,7 +12,7 @@ export default function Traineira() {
         </h3>
         <div className="inline-block">
           <Image
-            src="/assets/images/traineira-descricao.jpeg"
+            src="/assets/images/traineira.jpeg"
             alt="Traineira Privativa: Roteiros e horários definidos pelo cliente."
             title="Traineira Privativa: Roteiros e horários definidos pelo cliente."
             width={300}

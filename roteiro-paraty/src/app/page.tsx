@@ -28,7 +28,7 @@ export default function Home() {
       </section>
 
       <section id="jeep" className="mt-7 p-7 text-white">
-        <h2 className="text-4xl mb-5 uppercase">Jeep</h2>
+        <h2 className="text-4xl mb-5 uppercase">Jeep e Van</h2>
         <div className="inline-block">
           <Image
             src="/assets/images/jeep.jpeg"
@@ -47,11 +47,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="van" className="mt-7 p-7 text-white">
+      {/* <section id="van" className="mt-7 p-7 text-white">
         <h2 className="text-4xl mb-5 uppercase">Van (Trindade)</h2>
         <div className="inline-block">
           <Image
-            src="/assets/images/van.jpeg"
+            src="/assets/images/van.jpg"
             alt="Conheça Nossos Roteiros de Van"
             title="Conheça Nossos Roteiros de Van"
             width={300}
@@ -65,7 +65,7 @@ export default function Home() {
             Saiba Mais
           </Link>
         </div>
-      </section>
+      </section> */}
 
       <section id="lancha" className="mt-7 p-7 text-white">
         <h2 className="text-4xl mb-5 uppercase">Lancha (Privativa)</h2>
@@ -147,12 +147,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="quemsomosnos" className="mt-7 p-7 bg-lime-200">
+      {/* <section id="quemsomosnos" className="mt-7 p-7 bg-lime-200">
         <h2 className="text-4xl uppercase">Quem Somos Nós</h2>
-        <p className="">
+        <p>
           Somos uma agência online criada para fazer você ter momentos incríveis na cidade de Paraty. Entre em contato conosco, tire suas dúvidas, compartilhe suas expectativas e te ajudaremos a encontrar o passeio perfeito para você.
         </p>
-      </section>
+      </section> */}
     </div>
   );
 };
