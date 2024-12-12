@@ -6,13 +6,9 @@ import "./globals.css";
 
 const openSans = localFont({
   src: "./fonts/OpenSans-Regular.ttf",
-  // variable: "--font-geist-sans",
-  // weight: "100 900",
 });
 const stella = localFont({
   src: "./fonts/Stella.ttf",
-  // variable: "--font-geist-mono",
-  // weight: "100 900",
 });
 export const metadata: Metadata = {
   title: "Seu Roteiro em Paraty",
@@ -26,7 +22,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <body className="bg-white"> */}
       <body className={`${openSans} ${stella}`}>
         <main className="">
           <Navbar />
@@ -38,4 +33,4 @@ export default function RootLayout({
       </body>
     </html >
   );
-}
+};

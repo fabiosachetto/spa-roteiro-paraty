@@ -6,5 +6,5 @@ export default function Quemsomos() {
         Somos uma agência online criada para fazer você ter momentos incríveis na cidade de Paraty. Entre em contato conosco, tire suas dúvidas, compartilhe suas expectativas e te ajudaremos a encontrar o passeio perfeito para você.
       </p>
     </section>
-  )
-}
+  );
+};

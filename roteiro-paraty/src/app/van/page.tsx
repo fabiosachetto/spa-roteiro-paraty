@@ -4,7 +4,6 @@ import Link from "next/link";
 
 export default function Van() {
   return (
-
     <section id="van" className="mt-7 pt-7 text-white text-center">
       <h2 className="text-4xl mb-5 uppercase">Van</h2>
 
@@ -49,5 +48,5 @@ export default function Van() {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};

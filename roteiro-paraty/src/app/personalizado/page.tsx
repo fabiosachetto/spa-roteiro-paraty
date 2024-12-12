@@ -25,5 +25,5 @@ export default function Personalizado() {
         </Link>
       </div>
     </section>
-  )
-}
+  );
+};

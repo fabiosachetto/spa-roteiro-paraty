@@ -3,16 +3,15 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Escuna() {
-
   return (
     <section id="escuna" className="mt-7 p-7 text-white text-center">
-
       <h2 className="text-4xl mb-5 uppercase">Escunas</h2>
 
       <div className="pb-7">
         <h3 className="text-2xl mb-5 uppercase font-bold">
           Tradicional
         </h3>
+
         <div className="inline-block">
           <Image
             src="/assets/images/escuna-tradicional.jpeg"
@@ -89,6 +88,7 @@ export default function Escuna() {
         <h3 className="text-2xl mb-5 uppercase font-bold">
           Rota das Águas Claras
         </h3>
+        
         <div className="inline-block">
           <Image
             src="/assets/images/escuna-aguas.jpeg"
@@ -160,6 +160,6 @@ export default function Escuna() {
           </Link>
         </div>
       </div>
-    </section >
-  )
-}
+    </section>
+  );
+};

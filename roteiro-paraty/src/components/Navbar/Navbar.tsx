@@ -12,24 +12,6 @@ export const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-
-
-  // function getMenuClasses() {
-  //   let menuClasses = [];
-
-  //   if (isOpen) {
-  //     menuClasses = [
-  //       "flex absolute top-28 bg-gray-800 w-full p-4 left-0 gap-4 flex-col"
-  //     ];
-  //   } else {
-  //     menuClasses = [
-  //       "hidden md:flex"
-  //     ];
-  //   };
-
-  //   return menuClasses.join("");
-  // };
-
   return (
     <nav className="bg-blue-500 text-white p-4 sm:p-6 md:flex md:justify-between md:items-center">
       <div className="container mx-auto flex justify-between items-center">
@@ -46,7 +28,6 @@ export const Navbar = () => {
         </Link>
 
         <div className={isOpen ? "flex absolute top-28 bg-blue-500 w-full p-4 left-0 gap-4 flex-col" : "hidden md:flex"}>
-          {/* <div className={getMenuClasses()}> */}
           <Link href="/" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
             Home
           </Link>
@@ -89,13 +70,11 @@ export const Navbar = () => {
             setIsOpen(!isOpen);
           }}
           >
-            {/* <button onClick={toggleMenu}> */}
             <svg height="24" id="Layer_1" viewBox="0 0 512 512" width="24" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
               {isOpen ? (
                 <path fill="#ffffff" d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z" />
               ) : (
                 <g fill="#ffffff"><path d="M417.4,224H94.6C77.7,224,64,238.3,64,256c0,17.7,13.7,32,30.6,32h322.8c16.9,0,30.6-14.3,30.6-32   C448,238.3,434.3,224,417.4,224z" /><path d="M417.4,96H94.6C77.7,96,64,110.3,64,128c0,17.7,13.7,32,30.6,32h322.8c16.9,0,30.6-14.3,30.6-32   C448,110.3,434.3,96,417.4,96z" /><path d="M417.4,352H94.6C77.7,352,64,366.3,64,384c0,17.7,13.7,32,30.6,32h322.8c16.9,0,30.6-14.3,30.6-32   C448,366.3,434.3,352,417.4,352z" /></g>
-                // <><path fill="#ffffff" d="M441.13,166.52h-372a15,15,0,1,1,0-30h372a15,15,0,0,1,0,30Z" /><path fill="#ffffff" d="M441.13,279.72h-372a15,15,0,1,1,0-30h372a15,15,0,0,1,0,30Z" /><path fill="#ffffff" d="M441.13,392.92h-372a15,15,0,1,1,0-30h372a15,15,0,0,1,0,30Z" /></>
               )}
             </svg>
           </button>
