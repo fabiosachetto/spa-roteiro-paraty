@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function PoliticaDePrivacidade() {
   return (
-    <section className="mt-7 p-7 text-black">
+    <section className="mt-7 p-7 text-black bg-white">
       <div>
         <h2 className="text-4xl mb-5 uppercase">Política Privacidade</h2>
         <p>A sua privacidade é importante para nós. É política do SEU ROTEIRO EM PARATY respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <Link href="https://www.seuroteiroemparaty.com.br">SEU ROTEIRO EM PARATY</Link>, e outros sites que possuímos e operamos.</p>
