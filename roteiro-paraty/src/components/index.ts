@@ -1,2 +1,3 @@
-export * from "./Icons/Icons";
-export { Navbar } from "./Navbar/Navbar";
+export * from "@/components/Icons/Icons";
+export { Navbar } from "@/components/Navbar/Navbar";
+

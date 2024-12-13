@@ -51,7 +51,7 @@ export default function Home() {
         <h2 className="text-4xl mb-5 uppercase">Privativos</h2>
 
         <h3 className="text-2xl mb-5 uppercase font-bold">
-          Lanchas, Veleiros e Mais.
+          Lanchas, Veleiros e Mais
         </h3>
 
         <div className="inline-block">

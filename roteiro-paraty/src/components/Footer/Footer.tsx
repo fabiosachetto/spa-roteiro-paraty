@@ -33,6 +33,38 @@ export const Footer = () => {
         </ol>
       </div>
 
+      <div className="overflow-auto max-w-md m-auto text-center mb-4 pt-4 text-white border-t border-double border-t-white">
+        <div className="flex">
+          <div>
+            <Image
+              src="/assets/images/turismo-consciente.png"
+              alt="Turismo Consciente"
+              width={100}
+              height={100}
+              className="inline-block"
+            />
+          </div>
+          <div className="mx-16">
+            <Image
+              src="/assets/images/turismo-responsavel.png"
+              alt="Turismo Responsável"
+              width={100}
+              height={89}
+              className="inline-block"
+            />
+          </div>
+          <div className="mt-5">
+            <Image
+              src="/assets/images/unesco.jpg"
+              alt="Unesco"
+              width={100}
+              height={59}
+              className="inline-block"
+            />
+          </div>
+        </div>
+      </div>
+
       <div className="overflow-auto max-w-md m-auto text-center pt-4 text-white border-t border-double border-t-white">
         <h3>Aceitamos:</h3>
 
@@ -63,7 +95,7 @@ export const Footer = () => {
 
       <div className="overflow-auto max-w-md m-auto text-center mt-4 pt-4 text-white border-t border-double border-t-white">
         <Link href="https://cadastur.turismo.gov.br/cadastur/#!/public/qrcode/47072440000118" target="_blank">
-          <div className="">
+          <div>
             <Image
               src="/assets/images/cadastur.png"
               alt="Cadastur"
