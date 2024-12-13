@@ -109,7 +109,15 @@ export const Footer = () => {
 
       <div className="overflow-auto max-w-md m-auto text-center mt-4 pt-4 text-white border-t border-double border-t-white">
         <Link href="https://wa.me/+5524992815187" target="_blank" className="inline-block hover:text-orange-400">
-          Desenvolvido por Brain Tech Paraty
+          Desenvolvido por
+          <Image
+            src="/assets/images/logo-brain-tech.png"
+            alt="Brain Tech Paraty"
+            width={30}
+            height={29}
+            className="inline-block mx-1"
+          />
+          Brain Tech Paraty
         </Link>
       </div>
     </footer>
