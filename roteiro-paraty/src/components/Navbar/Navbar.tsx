@@ -13,7 +13,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="bg-blue-500 text-white p-4 sm:p-6 md:flex md:justify-between md:items-center">
+    <nav className="bg-blue-500 text-white py-5 px-5 sm:py-5 sm:px-64 md:flex md:justify-between md:items-center">
       <div className="container mx-auto flex justify-between items-center">
 
         <Link href="/">
