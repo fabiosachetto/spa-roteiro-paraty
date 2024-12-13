@@ -21,14 +21,14 @@ export default function Home() {
         </div>
 
         <div className="mt-4">
-          <Link href="/escuna" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
+          <Link href="/escunas" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
             Saiba Mais
           </Link>
         </div>
       </section>
 
       <section id="jeep" className="mt-7 p-7 text-white">
-        <h2 className="text-4xl mb-5 uppercase">Jeep e Van</h2>
+        <h2 className="text-4xl mb-5 uppercase">Jeep</h2>
         <div className="inline-block">
           <Image
             src="/assets/images/jeep.jpeg"
@@ -42,6 +42,31 @@ export default function Home() {
 
         <div className="mt-4">
           <Link href="/jeep" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
+            Saiba Mais
+          </Link>
+        </div>
+      </section>
+
+      <section id="privativos" className="mt-7 p-7 text-white">
+        <h2 className="text-4xl mb-5 uppercase">Privativos</h2>
+
+        <h3 className="text-2xl mb-5 uppercase font-bold">
+          Lancha - Veleiro - Traineira - Roteiros Personalizados
+        </h3>
+
+        <div className="inline-block">
+          <Image
+            src="/assets/images/lancha.png"
+            alt="Conheça Nossos Roteiros Privativos"
+            title="Conheça Nossos Roteiros Privativos"
+            width={300}
+            height={226}
+            className="object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+          />
+        </div>
+
+        <div className="mt-4">
+          <Link href="/privativos" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
             Saiba Mais
           </Link>
         </div>
@@ -65,8 +90,8 @@ export default function Home() {
             Saiba Mais
           </Link>
         </div>
-      </section> */}
-
+      </section> 
+      
       <section id="lancha" className="mt-7 p-7 text-white">
         <h2 className="text-4xl mb-5 uppercase">Lancha (Privativa)</h2>
         <div className="inline-block">

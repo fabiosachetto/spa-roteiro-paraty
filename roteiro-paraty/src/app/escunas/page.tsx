@@ -2,7 +2,7 @@ import { AlertIcon, ClockIcon } from "@/components/Icons/Icons";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Escuna() {
+export default function Escunas() {
   return (
     <section id="escuna" className="mt-7 p-7 text-white text-center">
       <h2 className="text-4xl mb-5 uppercase">Escunas</h2>
@@ -39,7 +39,7 @@ export default function Escuna() {
 
         <p><strong>Valor:</strong> R$110 por pessoa.</p>
 
-        <div className="mt-5 mb-5">
+        <div className="mt-5">
           <Link href="https://wa.me/+5524998793280" target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
             Reserve já!
           </Link>
@@ -77,7 +77,7 @@ export default function Escuna() {
 
         <p><strong>Valor:</strong> R$110 por pessoa.</p>
 
-        <div className="mt-5 mb-5">
+        <div className="mt-5">
           <Link href="https://wa.me/+5524998793280" target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
             Reserve já!
           </Link>
@@ -88,7 +88,7 @@ export default function Escuna() {
         <h3 className="text-2xl mb-5 uppercase font-bold">
           Rota das Águas Claras
         </h3>
-        
+
         <div className="inline-block">
           <Image
             src="/assets/images/escuna-aguas.jpeg"
@@ -116,7 +116,7 @@ export default function Escuna() {
 
         <p><strong>Valor:</strong> R$110 por pessoa.</p>
 
-        <div className="mt-5 mb-5">
+        <div className="mt-5">
           <Link href="https://wa.me/+5524998793280" target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
             Reserve já!
           </Link>

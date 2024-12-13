@@ -31,16 +31,16 @@ export const Navbar = () => {
           <Link href="/" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
             Home
           </Link>
-          <Link href="/escuna" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
+          <Link href="/escunas" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
             Escunas
           </Link>
-          <Link href="/jeep-van" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
-            Jeep e Van
+          <Link href="/jeep" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
+            Jeep
           </Link>
-          {/* <Link href="/van" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
-            Van
-          </Link> */}
-          <Link href="/lancha" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
+          <Link href="/privativos" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
+            Privativos
+          </Link>
+          {/* <Link href="/lancha" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
             Lancha
           </Link>
           <Link href="/traineira" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
@@ -51,7 +51,7 @@ export const Navbar = () => {
           </Link>
           <Link href="/personalizado" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
             Roteiros Personalizados
-          </Link>
+          </Link> */}
           <Link href="/quemsomos" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
             Quem Somos Nós
           </Link>
