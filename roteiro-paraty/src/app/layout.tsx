@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body className={`${openSans} ${stella}`} cz-shortcut-listen="false">
         <main className="mt-32 sm:mt-32 relative">
           <Navbar />

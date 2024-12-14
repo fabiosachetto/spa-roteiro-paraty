@@ -14,7 +14,7 @@ export const Navbar = () => {
 
   return (
     // <nav className="bg-blue-500 text-white py-5 px-5 sm:py-5 sm:px-64 md:flex md:justify-between md:items-center fixed">
-    <nav className="top-0 sm:top-0 bg-blue-500 text-white md:flex md:justify-between md:items-center fixed w-full">
+    <nav className="top-0 sm:top-0 bg-blue-500 text-white md:flex md:justify-between md:items-center fixed w-full z-50">
       <div className="container mx-auto flex justify-between items-center py-2 px-2 sm:px-52">
 
         <Link href="/">

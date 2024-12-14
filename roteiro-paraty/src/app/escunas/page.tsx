@@ -130,15 +130,15 @@ export default function Escunas() {
         <div className="inline-block">
           <Image
             src="/assets/images/escuna-um-andar.jpeg"
-            alt="Escuna de um andar: Ilha dos Cocos, Saco da Velha, Lagoa Azul, Ilha Comprida e Praia da Lula."
-            title="Escuna de um andar: Ilha dos Cocos, Saco da Velha, Lagoa Azul, Ilha Comprida e Praia da Lula."
+            alt="Escuna de um andar: Ilha dos Cocos, Praia da Lula, Lagoa Azul, Praia Vermelha e Ilha Comprida."
+            title="Escuna de um andar: Ilha dos Cocos, Praia da Lula, Lagoa Azul, Praia Vermelha e Ilha Comprida."
             width={300}
             height={169}
             className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
 
-        <p className="mb-6"><strong>Roteiro:</strong> Ilha dos Cocos, Saco da Velha, Lagoa Azul, Ilha Comprida e Praia da Lula.</p>
+        <p className="mb-6"><strong>Roteiro:</strong> Ilha dos Cocos, Praia da Lula, Lagoa Azul, Praia Vermelha e Ilha Comprida.</p>
 
         <p className="inline-block">
           <ClockIcon className="w-4 h-4 mr-2 float-left" />
