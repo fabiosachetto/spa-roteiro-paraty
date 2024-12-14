@@ -22,8 +22,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${openSans} ${stella}`}>
-        <main>
+      <body className={`${openSans} ${stella}`} cz-shortcut-listen="false">
+        <main className="mt-36 sm:mt-32 relative">
           <Navbar />
 
           {children}
