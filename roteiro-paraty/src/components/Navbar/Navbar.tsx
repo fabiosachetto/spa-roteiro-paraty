@@ -56,7 +56,7 @@ export const Navbar = () => {
           <Link href="/quemsomos" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
             Quem Somos Nós
           </Link>
-          <Link href="https://wa.me/+5524998793280" target="_blank" className="flex items-center mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
+          <Link href="https://api.whatsapp.com/send?phone=5524998793280" target="_blank" className="flex items-center mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
             <WhatsappIcon className="mr-2 w-5 h-5" />
             Contate-nos!
           </Link>
