@@ -30,14 +30,14 @@ export default function Jeep() {
           <strong>Início:</strong> 11h | <strong>Retorno:</strong> 17h
         </p>
 
-        <p><strong>Serviços:</strong> Bar e restaurante a bordo, música ao vivo, fotógrafo profissional, escorregador e ducha de água doce.</p>
+        <div>
+          <p className="mb-6 inline-block">
+            <AlertIcon className="w-5 h-5 mr-2 float-left" />
+            <strong className="float-left contents">O embarque e desembarque é realizado na hospedagem do cliente. O almoço ocorre no Restaurante do Poço do Tarzan. <br />Há degustação de cachaça gratuita nos alambiques, além de visita guiada.</strong>
+          </p>
+        </div>
 
-        <p className="mb-6 inline-block">
-          <AlertIcon className="w-5 h-5 mr-2 float-left" />
-          <strong className="float-left contents">O embarque e desembarque é realizado na hospedagem do cliente. O almoço ocorre no Restaurante do Poço do Tarzan. <br />Há degustação de cachaça gratuita nos alambiques, além de visita guiada.</strong>
-        </p>
-
-        <p><strong>Valor:</strong> R$100 por pessoa.</p>
+        <p><strong>Valor:</strong> R$150 por pessoa.</p>
 
         <p className="mb-6 inline-block">
           <AlertIcon className="w-5 h-5 mr-2 float-left" />

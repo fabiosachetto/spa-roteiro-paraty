@@ -37,7 +37,7 @@ export default function Escunas() {
           <strong className="float-left contents">Não é permitido embarcar com cooler e caixa de som!</strong>
         </p>
 
-        <p><strong>Valor:</strong> R$110 por pessoa.</p>
+        <p><strong>Valor:</strong> R$150 por pessoa.</p>
 
         <div className="mt-5">
           <Link href="https://wa.me/+5524998793280" target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
@@ -114,7 +114,7 @@ export default function Escunas() {
           <strong className="float-left contents">Não é permitido embarcar com cooler e caixa de som!</strong>
         </p>
 
-        <p><strong>Valor:</strong> R$110 por pessoa.</p>
+        <p><strong>Valor:</strong> R$150 por pessoa.</p>
 
         <div className="mt-5">
           <Link href="https://wa.me/+5524998793280" target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">

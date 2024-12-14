@@ -25,7 +25,7 @@ export const Footer = () => {
             </Link>
           </li>
           <li className="mb-4 p-1 rounded hover:bg-blue-500 clear-both">
-            <Link href="mailto:seuroteiroemparaty@gmail.com" target="_blank" className="flex items-center">
+            <Link href="mailto:seuroteiroemparaty@gmail.com" target="_blank" className="inline-flex items-center">
               <EmailIcon className="mr-2 w-5 h-5" />
               E-Mail
             </Link>
