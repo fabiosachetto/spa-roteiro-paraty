@@ -24,7 +24,7 @@ export const Footer = () => {
               WhatsApp
             </Link>
           </li>
-          <li className="mb-4 p-1 rounded hover:bg-blue-500 clear-both">
+          <li className="mb-4 p-1 pb-0 text-center rounded hover:bg-blue-500 clear-both">
             <Link href="mailto:seuroteiroemparaty@gmail.com" target="_blank" className="inline-flex items-center">
               <EmailIcon className="mr-2 w-5 h-5" />
               E-Mail

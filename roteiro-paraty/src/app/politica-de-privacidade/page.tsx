@@ -5,7 +5,7 @@ export default function PoliticaDePrivacidade() {
   return (
     <section className="mt-7 p-7 text-black bg-white">
       <div>
-        <h2 className="text-4xl mb-5 uppercase">Política Privacidade</h2>
+        <h2 className="text-4xl mb-5 text-center uppercase">Política de Privacidade</h2>
         <p>A sua privacidade é importante para nós. É política do SEU ROTEIRO EM PARATY respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <Link href="https://www.seuroteiroemparaty.com.br">SEU ROTEIRO EM PARATY</Link>, e outros sites que possuímos e operamos.</p>
         <p>Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.</p>
         <p>Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.</p>
@@ -13,9 +13,9 @@ export default function PoliticaDePrivacidade() {
         <p>O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas <Link href="https://privacidade.me/" target="_blank" className="">políticas de privacidade</Link>.</p>
         <p>Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.</p>
         <p>O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contato conosco.</p>
-        <h2 className="text-4xl my-5 uppercase">Segurança e Confiança do site SEU ROTEIRO EM PARATY</h2>
-        <p>O site é confiável e seguro para navegação do usuário conforme informado pela <Link target="_blank" className="text-orange-400" href="https://confiavel.com.br/https://www.seuroteiroemparaty.com.br/">Verificação</Link>. A página verifica informações do site para identificar possíveis problemas de segurança. A navegação verificada pela ferramenta <Link target="_blank" className="text-orange-400" href="https://transparencyreport.google.com/safe-browsing/search?url=https://www.seuroteiroemparaty.com.br/" >segurança do Google</Link> mostra que o site é seguro. </p>
-        <h2 className="text-4xl my-5 uppercase">Política de Cookies SEU ROTEIRO EM PARATY</h2>
+        <h2 className="text-4xl my-5 text-center uppercase">Segurança e Confiança do site SEU ROTEIRO EM PARATY</h2>
+        <p>O site é confiável e seguro para navegação do usuário conforme informado pela <Link target="_blank" className="text-blue-500" href="https://confiavel.com.br/https://www.seuroteiroemparaty.com.br/">Verificação</Link>. A página verifica informações do site para identificar possíveis problemas de segurança. A navegação verificada pela ferramenta <Link target="_blank" className="text-blue-500" href="https://transparencyreport.google.com/safe-browsing/search?url=https://www.seuroteiroemparaty.com.br/" >segurança do Google</Link> mostra que o site é seguro. </p>
+        <h2 className="text-4xl my-5 text-center uppercase">Política de Cookies SEU ROTEIRO EM PARATY</h2>
         <h3>O que são cookies?</h3>
         <p>Como é prática comum em quase todos os sites profissionais, este site usa cookies, que são pequenos arquivos baixados no seu computador, para melhorar sua experiência. Esta página descreve quais informações eles coletam, como as usamos e por que às vezes precisamos armazenar esses cookies. Também compartilharemos como você pode impedir que esses cookies sejam armazenados, no entanto, isso pode fazer o downgrade ou <strong>quebrar</strong> certos elementos da funcionalidade do site.</p>
         <h3>Como usamos os cookies?</h3>
