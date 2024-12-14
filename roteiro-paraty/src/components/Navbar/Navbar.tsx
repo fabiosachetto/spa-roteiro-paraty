@@ -27,7 +27,7 @@ export const Navbar = () => {
           </div>
         </Link>
 
-        <div className={isOpen ? "flex absolute top-28 w-full p-4 left-0 gap-4 flex-col" : "hidden md:flex"}>
+        <div className={isOpen ? "flex absolute top-28 bg-blue-500 w-full p-4 left-0 gap-4 flex-col" : "hidden md:flex"}>
           <Link href="/" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
             Home
           </Link>
