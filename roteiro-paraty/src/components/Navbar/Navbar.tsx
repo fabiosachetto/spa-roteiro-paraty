@@ -21,9 +21,9 @@ export const Navbar = () => {
           <div className="ml-3 float-left">
             <Image
               src="/assets/images/logo-roteiro.png"
-              alt="Seu Roteiro em Paraty!"
+              alt="Seu Roteiro em Paraty!"              
               width={100}
-              height={100}
+              height={84}
             />
           </div>
         </Link>
