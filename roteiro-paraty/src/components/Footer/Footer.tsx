@@ -12,19 +12,19 @@ export const Footer = () => {
         </h2>
 
         <ol className="text-white justify-center grid">
-          <li className="mb-4 hover:text-orange-400 clear-both">
+          <li className="mb-4 p-1 rounded hover:bg-blue-500 clear-both">
             <Link href="https://instagram.com/seuroteiroemparaty" target="_blank" className="flex items-center">
               <InstagramIcon className="mr-2 w-5 h-5" />
               Instagram
             </Link>
           </li>
-          <li className="mb-4 hover:text-orange-400 clear-both">
+          <li className="mb-4 p-1 rounded hover:bg-blue-500 clear-both">
             <Link href="https://wa.me/+5524998793280" target="_blank" className="flex items-center">
               <WhatsappIcon className="mr-2 w-5 h-5" />
               WhatsApp
             </Link>
           </li>
-          <li className="mb-4 hover:text-orange-400 clear-both">
+          <li className="mb-4 p-1 rounded hover:bg-blue-500 clear-both">
             <Link href="mailto:seuroteiroemparaty@gmail.com" target="_blank" className="flex items-center">
               <EmailIcon className="mr-2 w-5 h-5" />
               E-Mail
@@ -81,7 +81,7 @@ export const Footer = () => {
       </div>
 
       <div className="overflow-auto max-w-md m-auto text-center pt-4 text-white border-t border-double border-t-white">
-        <Link href="/politica-de-privacidade" className="inline-block hover:text-orange-400">
+        <Link href="/politica-de-privacidade" className="inline-block p-1 rounded hover:bg-blue-500">
           Política de Privacidade.
         </Link>
       </div>
@@ -102,7 +102,7 @@ export const Footer = () => {
 
       <div className="overflow-auto max-w-md m-auto text-center mt-4 pt-4 text-white border-t border-double border-t-white">
 
-        <Link id="link-brain-tech" href="https://wa.me/+5524992815187" target="_blank" className="inline-block text-white px-3 rounded">
+        <Link id="link-brain-tech" href="https://wa.me/+5524992815187" target="_blank" className="hover:animate-bounce inline-block text-white px-3 rounded">
           Desenvolvido por
           <Image
             src="/assets/images/logo-brain-tech.png"
