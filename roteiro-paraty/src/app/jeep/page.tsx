@@ -58,7 +58,7 @@ export default function Jeep() {
 
         <div className="inline-block">
           <Image
-            src="/assets/images/van-trindade.jpeg"
+            src="/assets/images/trindade.jpeg"
             alt="Trindade: Praia do Cepilho, Praia dos Ranchos, Praia do Meio, Praia do Cachadaço e Piscinas Naturais."
             title="Trindade: Praia do Cepilho, Praia dos Ranchos, Praia do Meio, Praia do Cachadaço e Piscinas Naturais."
             width={300}
