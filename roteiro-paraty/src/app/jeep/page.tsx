@@ -45,7 +45,7 @@ export default function Jeep() {
         </p>
 
         <div className="mt-5">
-          <Link href="https://wa.me/+5524998793280" target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
+          <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Jeep:%20Cachoeiras%20e%20Alambiques." target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
             Reserve já!
           </Link>
         </div>
@@ -87,7 +87,7 @@ export default function Jeep() {
         </p>
 
         <div className="mt-5">
-          <Link href="https://wa.me/+5524998793280" target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
+          <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Jeep:%20Trindade." target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
             Reserve já!
           </Link>
         </div>
@@ -95,7 +95,7 @@ export default function Jeep() {
 
       <div className="py-7 border-t border-double border-t-white">
         <h3 className="text-2xl mb-5 uppercase font-bold">
-          Roteiro 3 em 1 (Ilha do Cedro)
+          3 em 1 (Ilha do Cedro)
         </h3>
 
         <div className="inline-block">
@@ -114,7 +114,7 @@ export default function Jeep() {
         <p><strong>Valor:</strong> R$250 por pessoa.</p>
 
         <div className="mt-5">
-          <Link href="https://wa.me/+5524998793280" target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
+          <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Jeep:%203%20em%201." target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
             Reserve já!
           </Link>
         </div>
@@ -141,7 +141,7 @@ export default function Jeep() {
         <p><strong>Valor:</strong> R$150 por pessoa.</p>
 
         <div className="mt-5">
-          <Link href="https://wa.me/+5524998793280" target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
+          <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Jeep:%20Ilha%20do%20Cedro." target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
             Reserve já!
           </Link>
         </div>
