@@ -1,70 +1,95 @@
 "use client";
 import { InstagramIcon, WhatsappIcon } from "@/components/Icons/Icons";
+import { cn } from "@/helpers/cn";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
-export const Navbar = () => {
+type NavbarProps = React.ComponentProps<"nav">;
+type NavbarDivProps = React.ComponentProps<"div">;
+type NavbarLinkProps = React.ComponentProps<"span">;
 
+
+export const Navbar = ({ className, ...props }: NavbarProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = (isOpen: unknown) => {
     setIsOpen(!isOpen);
   };
 
+  const NavbarDiv = ({ children, className, ...props }: NavbarDivProps) => {
+    return (
+      <div className={cn(isOpen ? "flex absolute top-24 bg-blue-500 w-full p-4 left-0 gap-4 flex-col" : "hidden md:flex", className)} {...props}>
+        {children}
+      </div>
+    )
+  };
+
+  const NavbarLink = ({ children, className, ...props }: NavbarLinkProps) => {
+    return (
+      <span className={cn("mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800", className)} {...props} onClick={toggleMenu}>
+        {children}
+      </span>
+    );
+  };
+
+
   return (
-    // <nav className="bg-blue-500 text-white py-5 px-5 sm:py-5 sm:px-64 md:flex md:justify-between md:items-center fixed">
-    <nav className="top-0 sm:top-0 bg-blue-500 text-white md:flex md:justify-between md:items-center fixed w-full z-50">
+    <nav className={cn("top-0 sm:top-0 bg-blue-500 text-white md:flex md:justify-between md:items-center fixed w-full z-50", className)} {...props}>
+
       <div className="container mx-auto flex justify-between items-center py-2 px-2 sm:px-52">
 
-        <Link href="/">
+        <Link href="/" onClick={toggleMenu}>
           <div className="ml-3 float-left">
             <Image
               src="/assets/images/logo-roteiro.png"
-              alt="Seu Roteiro em Paraty!"              
+              alt="Seu Roteiro em Paraty!"
               width={100}
               height={84}
             />
           </div>
         </Link>
 
-        <div className={isOpen ? "flex absolute top-24 bg-blue-500 w-full p-4 left-0 gap-4 flex-col" : "hidden md:flex"}>
-          <Link href="/" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
-            Home
-          </Link>
-          <Link href="/escunas" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
-            Escunas
-          </Link>
-          <Link href="/jeep" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
-            Jeep
-          </Link>
-          <Link href="/privativos" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
-            Privativos
-          </Link>
-          {/* <Link href="/lancha" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
-            Lancha
-          </Link>
-          <Link href="/traineira" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
-            Traineira
-          </Link>
-          <Link href="/veleiro" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
-            Veleiro
-          </Link>
-          <Link href="/personalizado" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
-            Roteiros Personalizados
-          </Link> */}
-          <Link href="/quemsomos" className="mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800" onClick={toggleMenu}>
-            Quem Somos Nós
-          </Link>
-          <Link href="https://api.whatsapp.com/send?phone=5524998793280" target="_blank" className="flex items-center mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
-            <WhatsappIcon className="mr-2 w-5 h-5" />
-            Contate-nos!
-          </Link>
-          <Link href="https://instagram.com/seuroteiroemparaty" target="_blank" className="flex items-center mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-2 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
-            <InstagramIcon className="mr-2 w-5 h-5" />
-            Siga-nos no Instagram!
-          </Link>
-        </div>
+        <NavbarDiv>
+          <NavbarLink>
+            <Link href="/" className="block">
+              Home
+            </Link>
+          </NavbarLink>
+          <NavbarLink>
+            <Link href="/escunas" className="block">
+              Escunas
+            </Link>
+          </NavbarLink>
+          <NavbarLink>
+            <Link href="/jeep" className="block">
+              Jeep
+            </Link>
+          </NavbarLink>
+          <NavbarLink>
+            <Link href="/privativos" className="block">
+              Privativos
+            </Link>
+          </NavbarLink>
+          <NavbarLink>
+            <Link href="/quemsomos" className="block">
+              Quem Somos Nós
+            </Link>
+          </NavbarLink>
+          <NavbarLink>
+            <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Vim%20do%20Site%20e%20e%20cliquei%20em%20Contate-nos!" target="_blank" className="flex items-center">
+              {/* <Link href="https://api.whatsapp.com/send?phone=5524998793280" target="_blank" className="flex items-center"> */}
+              <WhatsappIcon className="mr-2 w-5 h-5" />
+              Contate-nos!
+            </Link>
+          </NavbarLink>
+          <NavbarLink>
+            <Link href="https://instagram.com/seuroteiroemparaty" target="_blank" className="flex items-center">
+              <InstagramIcon className="mr-2 w-5 h-5" />
+              Siga-nos no Instagram!
+            </Link>
+          </NavbarLink>
+        </NavbarDiv>
 
         <div className="md:hidden flex items-center mr-2">
           <button onClick={() => {
@@ -81,7 +106,7 @@ export const Navbar = () => {
           </button>
         </div>
       </div>
-    </nav >
-  )
-}
+    </nav>
+  );
+};
 
