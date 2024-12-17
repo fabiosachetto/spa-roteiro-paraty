@@ -163,13 +163,13 @@ export default function Escunas() {
 
       <div className="pt-7 border-t border-double border-t-amber-900">
         <h3 className="text-2xl mb-5 uppercase font-bold">
-          Passeio Alternativo
+          Passeio Vespertino
         </h3>
         <div className="inline-block">
           <Image
             src="/assets/images/escuna-alternativo.jpeg"
-            alt="Passeio Alternativo: Ilha Comprida, Ilha da Pescaria e Praia Vermelha."
-            title="Passeio Alternativo: Ilha Comprida, Ilha da Pescaria e Praia Vermelha."
+            alt="Passeio Vespertino: Ilha Comprida, Ilha da Pescaria e Praia Vermelha."
+            title="Passeio Vespertino: Ilha Comprida, Ilha da Pescaria e Praia Vermelha."
             width={300}
             height={400}
             className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"

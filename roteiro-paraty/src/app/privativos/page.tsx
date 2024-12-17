@@ -88,15 +88,15 @@ export default function Privativo() {
 
       <div className="pt-7 border-t border-double border-t-white">
 
-        {/* <h3 className="text-2xl mb-5 uppercase font-bold">
+        <h3 className="text-2xl mb-5 uppercase font-bold">
           Roteiros Personalizados
-        </h3> */}
+        </h3>
 
         <div className="inline-block">
           <Image
             src="/assets/images/roteiros-personalizados.png"
-            alt="Conheça Nossos Roteiros de Passeios Personalizados"
-            title="Conheça Nossos Roteiros de Passeios Personalizados"
+            alt="Conheça Nossos Roteiros de Passeios Personalizados."
+            title="Conheça Nossos Roteiros de Passeios Personalizados."
             width={300}
             height={179}
             className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
