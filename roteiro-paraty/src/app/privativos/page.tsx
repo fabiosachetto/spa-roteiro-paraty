@@ -86,28 +86,36 @@ export default function Privativo() {
         </div>
       </div>
 
-      <div className="py-7 border-t border-double border-t-white">
-        <h3 className="text-2xl mb-5 uppercase font-bold">
-          Roteiros Personalizados
-        </h3>
+      <div className="pt-7 border-t border-double border-t-white ">
+        <div className="relative h-[30vh] md:h-screen bg-no-repeat bg-center bg-contain bg-[url('/assets/background/bg-personalizados.png')]">
+          {/*<div className="">
+           <h3 className="text-2xl mb-5 uppercase font-bold">
+            Roteiros Personalizados
+          </h3>
 
-        <div className="inline-block">
-          <Image
-            src="/assets/images/personalizado.png"
-            alt="Conheça Nossos Roteiros de Passeios Personalizados"
-            title="Conheça Nossos Roteiros de Passeios Personalizados"
-            width={300}
-            height={303}
-            className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
-          />
-        </div>
+          <div className="inline-block">
+            <Image
+              src="/assets/images/personalizado.png"
+              alt="Conheça Nossos Roteiros de Passeios Personalizados"
+              title="Conheça Nossos Roteiros de Passeios Personalizados"
+              width={300}
+              height={303}
+              className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+            />
+          </div>
 
-        <p className="mb-6"><strong>Estaria procurando por um lugar ou roteiro diferente dos que sugerimos? Conte-nos e te ajudaremos a criar o seu próprio passeio!</strong></p>
+          <p className="mb-6"><strong>Estaria procurando por um lugar ou roteiro diferente dos que sugerimos? Conte-nos e te ajudaremos a criar o seu próprio passeio!</strong></p>
 
-        <div className="mt-5">
-          <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20em%20saber%20sobre%20Roteiros%20Personalizados." target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
-            Reserve já!
-          </Link>
+          <div className="mt-5">
+            <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20em%20saber%20sobre%20Roteiros%20Personalizados." target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
+              Reserve já!
+            </Link>
+          </div> */}
+          <div className="absolute bottom-6 lg:bottom-24 left-4 lg:left-60">
+            <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20em%20saber%20sobre%20Roteiros%20Personalizados." target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 lg:px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-800">
+              Reserve já!
+            </Link>
+          </div>
         </div>
       </div>
     </section>
