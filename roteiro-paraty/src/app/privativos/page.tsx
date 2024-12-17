@@ -86,7 +86,7 @@ export default function Privativo() {
         </div>
       </div>
 
-      <div className="py-7 border-t border-double border-t-white">
+      <div className="pt-7 border-t border-double border-t-white">
 
         {/* <h3 className="text-2xl mb-5 uppercase font-bold">
           Roteiros Personalizados
@@ -107,7 +107,7 @@ export default function Privativo() {
 
         <div className="mt-5">
           <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20em%20saber%20sobre%20Roteiros%20Personalizados." target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 lg:px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-800">
-            Reserve já!
+            Saiba Mais!
           </Link>
         </div>
       </div>
