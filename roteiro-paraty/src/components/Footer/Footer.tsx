@@ -12,19 +12,19 @@ export const Footer = () => {
         </h2>
 
         <ol className="text-white justify-center grid">
-          <li className="mb-4 py-1 px-3 rounded-full cursor-pointer hover:bg-[#0CC0DF]">
+          <li className="mb-4 hover:text-black py-1 px-3 rounded-full cursor-pointer hover:bg-[#0CC0DF]">
             <Link href="https://instagram.com/seuroteiroemparaty" target="_blank" className="flex items-center">
               <InstagramIcon className="mr-2 w-5 h-5" />
               Instagram
             </Link>
           </li>
-          <li className="mb-4 py-1 px-3 rounded-full cursor-pointer hover:bg-[#0CC0DF]">
+          <li className="mb-4 hover:text-black py-1 px-3 rounded-full cursor-pointer hover:bg-[#0CC0DF]">
             <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Vim%20do%20Site%20e%20cliquei%20em%20WhatsApp%20no%20Rodapé." target="_blank" className="flex items-center">
               <WhatsappIcon className="mr-2 w-5 h-5" />
               WhatsApp
             </Link>
           </li>
-          <li className="mb-4 pb-0 text-center py-1 px-3 rounded-full cursor-pointer hover:bg-[#0CC0DF]">
+          <li className="mb-4 hover:text-black pb-0 text-center py-1 px-3 rounded-full cursor-pointer hover:bg-[#0CC0DF]">
             <Link href="mailto:seuroteiroemparaty@gmail.com" target="_blank" className="inline-flex items-center">
               <EmailIcon className="mr-2 w-5 h-5" />
               E-Mail
@@ -81,7 +81,7 @@ export const Footer = () => {
       </div>
 
       <div className="overflow-auto max-w-md m-auto text-center pt-4 text-white border-t border-double border-t-white">
-        <Link href="/politica-de-privacidade" className="inline-block py-1 px-3 rounded-full cursor-pointer hover:bg-[#0CC0DF]">
+        <Link href="/politica-de-privacidade" className="inline-block hover:text-black py-1 px-3 rounded-full cursor-pointer hover:bg-[#0CC0DF]">
           Política de Privacidade.
         </Link>
       </div>
