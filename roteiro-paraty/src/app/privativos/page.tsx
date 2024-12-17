@@ -28,7 +28,7 @@ export default function Privativo() {
         <p><strong>Valores:</strong> À partir de R$1.500 (Capacidade para até 7 pessoas.)</p>
 
         <div className="mt-5">
-          <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20Privativo%20de%20Lancha." target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
+          <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20Privativo%20de%20Lancha." target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 lg:px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
             Reserve já!
           </Link>
         </div>
@@ -52,7 +52,7 @@ export default function Privativo() {
         <p className="mb-6"><strong>Consultar por disponibilidade.</strong></p>
 
         <div className="mt-5">
-          <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20Privativo%20de%20Veleiro." target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
+          <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20Privativo%20de%20Veleiro." target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 lg:px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
             Reserve já!
           </Link>
         </div>
@@ -80,7 +80,7 @@ export default function Privativo() {
         <p><strong>Valores:</strong> À partir de R$1.000 (Capacidade para até 25 pessoas.)</p>
 
         <div className="mt-5">
-          <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20Privativo%20de%20Traineira." target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 rounded-lg cursor-pointer bg-blue-500 hover:bg-blue-800">
+          <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20Privativo%20de%20Traineira." target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 lg:px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
             Reserve já!
           </Link>
         </div>
@@ -106,8 +106,8 @@ export default function Privativo() {
         <p className="mb-6"><strong>Estaria procurando por um lugar ou roteiro diferente dos que sugerimos? Conte-nos e te ajudaremos a criar o seu próprio passeio!</strong></p>
 
         <div className="mt-5">
-          <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20em%20saber%20sobre%20Roteiros%20Personalizados." target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 lg:px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-800">
-            Saiba Mais!
+          <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20em%20saber%20sobre%20Roteiros%20Personalizados." target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 lg:px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
+            Reserve Já!
           </Link>
         </div>
       </div>
