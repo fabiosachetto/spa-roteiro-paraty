@@ -5,27 +5,36 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
-type NavbarProps = React.ComponentProps<"nav">;
-type NavbarDivProps = React.ComponentProps<"div">;
-type NavbarLinkProps = React.ComponentProps<"span">;
+type NavbarNavProps = React.ComponentProps<"nav">;
+type NavbarListProps = React.ComponentProps<"div">;
+type NavbarListItemProps = React.ComponentProps<"span">;
+type NavbarListItemLinkProps = React.ComponentProps<typeof Link>;
 
-
-export const Navbar = ({ className, ...props }: NavbarProps) => {
+export const Navbar = () => {
+  // export const Navbar = ({ className, ...props }: NavbarProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = (isOpen: unknown) => {
     setIsOpen(!isOpen);
   };
 
-  const NavbarDiv = ({ children, className, ...props }: NavbarDivProps) => {
+  const NavbarNav = ({ children, className, ...props }: NavbarNavProps) => {
+    return (
+      <nav className={cn("top-0 sm:top-0 bg-blue-500 text-white md:flex md:justify-between md:items-center fixed w-full z-50", className)} {...props}>
+        {children}
+      </nav>
+    );
+  };
+
+  const NavbarList = ({ children, className, ...props }: NavbarListProps) => {
     return (
       <div className={cn(isOpen ? "flex absolute top-24 bg-blue-500 w-full p-4 left-0 gap-4 flex-col" : "hidden md:flex", className)} {...props}>
         {children}
       </div>
-    )
+    );
   };
 
-  const NavbarLink = ({ children, className, ...props }: NavbarLinkProps) => {
+  const NavbarListItem = ({ children, className, ...props }: NavbarListItemProps) => {
     return (
       <span className={cn("mx-1 transition delay-150 duration-300 ease-in-out font-bold py-1 px-4 rounded-full cursor-pointer hover:bg-[#0CC0DF]", className)} {...props} onClick={toggleMenu}>
         {children}
@@ -33,9 +42,19 @@ export const Navbar = ({ className, ...props }: NavbarProps) => {
     );
   };
 
+  const NavbarListItemLink = ({ href, children, className, ...props }: NavbarListItemLinkProps) => {
+    return (
+      <NavbarListItem className={cn("", className)}>
+        <Link href={href} className="block" {...props}>
+          {children}
+        </Link>
+      </NavbarListItem>
+    );
+  };
 
   return (
-    <nav className={cn("top-0 sm:top-0 bg-blue-500 text-white md:flex md:justify-between md:items-center fixed w-full z-50", className)} {...props}>
+    <NavbarNav>
+      {/* <nav className={cn("top-0 sm:top-0 bg-blue-500 text-white md:flex md:justify-between md:items-center fixed w-full z-50", className)} {...props}> */}
 
       <div className="container mx-auto flex justify-between items-center py-2 px-2 sm:px-52">
 
@@ -44,51 +63,75 @@ export const Navbar = ({ className, ...props }: NavbarProps) => {
             <Image
               src="/assets/images/logo-roteiro.png"
               alt="Seu Roteiro em Paraty!"
+              title="Seu Roteiro em Paraty!"
               width={100}
               height={84}
             />
           </div>
         </Link>
 
-        <NavbarDiv>
-          <NavbarLink>
+        <NavbarList>
+          <NavbarListItemLink href="/">
+            Home
+          </NavbarListItemLink>
+          <NavbarListItemLink href="/escunas">
+            Escunas
+          </NavbarListItemLink>
+          <NavbarListItemLink href="/jeep">
+            Jeep
+          </NavbarListItemLink>
+          <NavbarListItemLink href="/privativos">
+            Privativos
+          </NavbarListItemLink>
+          <NavbarListItemLink href="/quemsomos">
+            Quem Somos Nós
+          </NavbarListItemLink>
+          <NavbarListItemLink href="https://api.whatsapp.com/send?phone=5524998793280&text=Vim%20do%20Site%20e%20cliquei%20em%20Contate-nos!" target="_blank">
+            <WhatsappIcon className={"inline-block -mt-[3px] mr-2 w-5 h-5"} />
+            Contate-nos!
+          </NavbarListItemLink>
+          <NavbarListItemLink href="https://instagram.com/seuroteiroemparaty" target="_blank">
+            <InstagramIcon className={"inline-block -mt-[4px] mr-2 w-5 h-5"} />
+            Siga-nos no Instagram!
+          </NavbarListItemLink>
+          {/* <NavbarListItem>
             <Link href="/" className="block">
               Home
             </Link>
-          </NavbarLink>
-          <NavbarLink>
+          </NavbarListItem> 
+          <NavbarListItem>
             <Link href="/escunas" className="block">
               Escunas
             </Link>
-          </NavbarLink>
-          <NavbarLink>
+          </NavbarListItem>
+          <NavbarListItem>
             <Link href="/jeep" className="block">
               Jeep
             </Link>
-          </NavbarLink>
-          <NavbarLink>
+          </NavbarListItem>
+          <NavbarListItem>
             <Link href="/privativos" className="block">
               Privativos
             </Link>
-          </NavbarLink>
-          <NavbarLink>
+          </NavbarListItem>
+          <NavbarListItem>
             <Link href="/quemsomos" className="block">
               Quem Somos Nós
             </Link>
-          </NavbarLink>
-          <NavbarLink>
-            <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Vim%20do%20Site%20e%20cliquei%20em%20Contate-nos!" target="_blank" className="flex items-center">
+          </NavbarListItem>
+          <NavbarListItem>
+            <Link href="https://api.whatsapp.com/send?phone=5524998793280&text=Vim%20do%20Site%20e%20cliquei%20em%20Contate-nos!" target="_blank" className={"flex items-center"}>
               <WhatsappIcon className="mr-2 w-5 h-5" />
               Contate-nos!
             </Link>
-          </NavbarLink>
-          <NavbarLink>
-            <Link href="https://instagram.com/seuroteiroemparaty" target="_blank" className="flex items-center">
+          </NavbarListItem>
+          <NavbarListItem>
+            <Link href="https://instagram.com/seuroteiroemparaty" target="_blank" className={"flex items-center"}>
               <InstagramIcon className="mr-2 w-5 h-5" />
               Siga-nos no Instagram!
             </Link>
-          </NavbarLink>
-        </NavbarDiv>
+          </NavbarListItem>*/}
+        </NavbarList>
 
         <div className="md:hidden flex items-center mr-2">
           <button onClick={() => {
@@ -105,7 +148,7 @@ export const Navbar = ({ className, ...props }: NavbarProps) => {
           </button>
         </div>
       </div>
-    </nav>
+    </NavbarNav>
   );
 };
 
