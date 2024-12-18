@@ -14,9 +14,17 @@ export default function Home() {
             src="/assets/images/escuna.jpeg"
             alt="Conheça Nossos Roteiros de Escunas"
             title="Conheça Nossos Roteiros de Escunas"
+            width={500}
+            height={333}
+            className="hidden md:block object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+          />
+          <Image
+            src="/assets/images/escuna.jpeg"
+            alt="Conheça Nossos Roteiros de Escunas"
+            title="Conheça Nossos Roteiros de Escunas"
             width={300}
             height={200}
-            className="object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+            className="block md:hidden object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
 
@@ -34,9 +42,17 @@ export default function Home() {
             src="/assets/images/jeep.jpeg"
             alt="Conheça Nossos Roteiros de Jeep"
             title="Conheça Nossos Roteiros de Jeep"
+            width={500}
+            height={333}
+            className="hidden md:block object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+          />
+          <Image
+            src="/assets/images/jeep.jpeg"
+            alt="Conheça Nossos Roteiros de Jeep"
+            title="Conheça Nossos Roteiros de Jeep"
             width={300}
             height={200}
-            className="object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+            className="block md:hidden object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
 
@@ -59,9 +75,17 @@ export default function Home() {
             src="/assets/images/lancha.png"
             alt="Conheça Nossos Roteiros Privativos"
             title="Conheça Nossos Roteiros Privativos"
+            width={500}
+            height={376}
+            className="hidden md:block object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+          />
+          <Image
+            src="/assets/images/lancha.png"
+            alt="Conheça Nossos Roteiros Privativos"
+            title="Conheça Nossos Roteiros Privativos"
             width={300}
             height={226}
-            className="object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+            className="block md:hidden object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
 
