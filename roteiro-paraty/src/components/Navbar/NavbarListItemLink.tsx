@@ -1,7 +1,7 @@
 import { cn } from "@/helpers/cn";
-import { NavbarListItemLinkProps } from "./types";
-import { NavbarListItem } from "./NavbarListItem";
 import Link from "next/link";
+import { NavbarListItem } from "./NavbarListItem";
+import { NavbarListItemLinkProps } from "./types";
 
 export const NavbarListItemLink = ({ href, children, className, ...props }: NavbarListItemLinkProps) => {
   return (
