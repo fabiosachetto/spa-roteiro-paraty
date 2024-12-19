@@ -199,7 +199,7 @@ export default function Escunas() {
         </h3>
         <div className="inline-block">
           <Image
-            src="/assets/images/escuna-alternativo.jpeg"
+            src="/assets/images/escuna-vespertina.jpeg"
             alt="Passeio Vespertino: Ilha Comprida, Ilha da Pescaria e Praia Vermelha."
             title="Passeio Vespertino: Ilha Comprida, Ilha da Pescaria e Praia Vermelha."
             width={500}
@@ -207,7 +207,7 @@ export default function Escunas() {
             className="hidden md:block mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
           <Image
-            src="/assets/images/escuna-alternativo.jpeg"
+            src="/assets/images/escuna-vespertina.jpeg"
             alt="Passeio Vespertino: Ilha Comprida, Ilha da Pescaria e Praia Vermelha."
             title="Passeio Vespertino: Ilha Comprida, Ilha da Pescaria e Praia Vermelha."
             width={300}
