@@ -56,14 +56,14 @@ export const Navbar = () => {
           <NavbarListItemLink href="/privativos" onClick={toggleMenu}>
             Privativos
           </NavbarListItemLink>
-          <NavbarListItemLink href="/quemsomos" className={"sm:pt-0 lg:pt-4"} onClick={toggleMenu}>
+          <NavbarListItemLink href="/quemsomos" className={"sm:pt-0 lg:pt-2"} onClick={toggleMenu}>
             Quem Somos Nós
           </NavbarListItemLink>
-          <NavbarListItemLink href="https://api.whatsapp.com/send?phone=5524998793280&text=Vim%20do%20Site%20e%20cliquei%20em%20Contate-nos!" target="_blank" className={"sm:pt-0 lg:pt-4"} onClick={toggleMenu}>
+          <NavbarListItemLink href="https://api.whatsapp.com/send?phone=5524998793280&text=Vim%20do%20Site%20e%20cliquei%20em%20Contate-nos!" target="_blank" className={"sm:pt-0 lg:pt-2"} onClick={toggleMenu}>
             <WhatsappIcon className={"inline-block -mt-[3px] mr-2 w-5 h-5"} />
             Contate-nos!
           </NavbarListItemLink>
-          <NavbarListItemLink href="https://instagram.com/seuroteiroemparaty" target="_blank" className={"sm:pt-0 lg:pt-4"} onClick={toggleMenu}>
+          <NavbarListItemLink href="https://instagram.com/seuroteiroemparaty" target="_blank" className={"sm:pt-0 lg:pt-2"} onClick={toggleMenu}>
             <InstagramIcon className={"inline-block -mt-[4px] mr-2 w-5 h-5"} />
             Siga-nos no Instagram!
           </NavbarListItemLink>

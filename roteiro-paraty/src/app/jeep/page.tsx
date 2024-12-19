@@ -17,9 +17,17 @@ export default function Jeep() {
             src="/assets/images/jeep.jpeg"
             alt="Cachoeiras e Alambiques: Alambique Paratiana, Cachoeira da Usina + Cachoeira da Pedra Branca, Alambique Pedra Branca, Poço do Tarzan + Cachoeira do Tobogã, Casa de Farinha e Queijaria."
             title="Cachoeiras e Alambiques: Alambique Paratiana, Cachoeira da Usina + Cachoeira da Pedra Branca, Alambique Pedra Branca, Poço do Tarzan + Cachoeira do Tobogã, Casa de Farinha e Queijaria."
+            width={500}
+            height={334}
+            className="hidden md:block mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+          />
+          <Image
+            src="/assets/images/jeep.jpeg"
+            alt="Cachoeiras e Alambiques: Alambique Paratiana, Cachoeira da Usina + Cachoeira da Pedra Branca, Alambique Pedra Branca, Poço do Tarzan + Cachoeira do Tobogã, Casa de Farinha e Queijaria."
+            title="Cachoeiras e Alambiques: Alambique Paratiana, Cachoeira da Usina + Cachoeira da Pedra Branca, Alambique Pedra Branca, Poço do Tarzan + Cachoeira do Tobogã, Casa de Farinha e Queijaria."
             width={300}
             height={200}
-            className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+            className="block md:hidden mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
 
@@ -61,9 +69,17 @@ export default function Jeep() {
             src="/assets/images/trindade.jpeg"
             alt="Trindade: Praia do Cepilho, Praia dos Ranchos, Praia do Meio, Praia do Cachadaço e Piscinas Naturais."
             title="Trindade: Praia do Cepilho, Praia dos Ranchos, Praia do Meio, Praia do Cachadaço e Piscinas Naturais."
+            width={500}
+            height={667}
+            className="hidden md:block mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+          />
+          <Image
+            src="/assets/images/trindade.jpeg"
+            alt="Trindade: Praia do Cepilho, Praia dos Ranchos, Praia do Meio, Praia do Cachadaço e Piscinas Naturais."
+            title="Trindade: Praia do Cepilho, Praia dos Ranchos, Praia do Meio, Praia do Cachadaço e Piscinas Naturais."
             width={300}
             height={400}
-            className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+            className="block md:hidden mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
 
@@ -103,9 +119,17 @@ export default function Jeep() {
             src="/assets/images/jeep-tres-em-um.jpeg"
             alt="Roteiro 3 em 1 (Ilha do Cedro): Praia do Iriri, Ilha do Cedro e Cachoeira do Iriri."
             title="Roteiro 3 em 1 (Ilha do Cedro): Praia do Iriri, Ilha do Cedro e Cachoeira do Iriri."
+            width={500}
+            height={667}
+            className="hidden md:block mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+          />
+          <Image
+            src="/assets/images/jeep-tres-em-um.jpeg"
+            alt="Roteiro 3 em 1 (Ilha do Cedro): Praia do Iriri, Ilha do Cedro e Cachoeira do Iriri."
+            title="Roteiro 3 em 1 (Ilha do Cedro): Praia do Iriri, Ilha do Cedro e Cachoeira do Iriri."
             width={300}
             height={400}
-            className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+            className="block md:hidden mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
 
@@ -130,9 +154,17 @@ export default function Jeep() {
             src="/assets/images/jeep-ilha-cedro.jpeg"
             alt="Ilha do Cedro: Praia da Pitanga e Ilha do Cedro."
             title="Ilha do Cedro: Praia da Pitanga e Ilha do Cedro."
+            width={500}
+            height={667}
+            className="hidden md:block mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+          />
+          <Image
+            src="/assets/images/jeep-ilha-cedro.jpeg"
+            alt="Ilha do Cedro: Praia da Pitanga e Ilha do Cedro."
+            title="Ilha do Cedro: Praia da Pitanga e Ilha do Cedro."
             width={300}
             height={400}
-            className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+            className="block md:hidden mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
 

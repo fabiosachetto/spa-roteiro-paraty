@@ -17,9 +17,17 @@ export default function Escunas() {
             src="/assets/images/escuna-tradicional.jpeg"
             alt="Tradicional: Ilha dos Cocos, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha."
             title="Tradicional: Ilha dos Cocos, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha."
+            width={500}
+            height={332}
+            className="hidden md:block mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+          />
+          <Image
+            src="/assets/images/escuna-tradicional.jpeg"
+            alt="Tradicional: Ilha dos Cocos, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha."
+            title="Tradicional: Ilha dos Cocos, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha."
             width={300}
             height={199}
-            className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+            className="block md:hidden mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
 
@@ -55,9 +63,17 @@ export default function Escunas() {
             src="/assets/images/escuna-tradicional-ii.jpeg"
             alt="Tradicional II: Ilha dos Cocos, Praia da Conceição, Lagoa Azul e Praia da Lula."
             title="Tradicional II: Ilha dos Cocos, Praia da Conceição, Lagoa Azul e Praia da Lula."
+            width={500}
+            height={281}
+            className="hidden md:block mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+          />
+          <Image
+            src="/assets/images/escuna-tradicional-ii.jpeg"
+            alt="Tradicional II: Ilha dos Cocos, Praia da Conceição, Lagoa Azul e Praia da Lula."
+            title="Tradicional II: Ilha dos Cocos, Praia da Conceição, Lagoa Azul e Praia da Lula."
             width={300}
             height={169}
-            className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+            className="block md:hidden mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
 
@@ -94,9 +110,17 @@ export default function Escunas() {
             src="/assets/images/escuna-aguas.jpeg"
             alt="Rota das Águas Claras: Ilha dos Cocos, Praia do Saco da Velha, Lagoa Azul e Praia da Conceição."
             title="Rota das Águas Claras: Ilha dos Cocos, Praia do Saco da Velha, Lagoa Azul e Praia da Conceição."
+            width={500}
+            height={281}
+            className="hidden md:block mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+          />
+          <Image
+            src="/assets/images/escuna-aguas.jpeg"
+            alt="Rota das Águas Claras: Ilha dos Cocos, Praia do Saco da Velha, Lagoa Azul e Praia da Conceição."
+            title="Rota das Águas Claras: Ilha dos Cocos, Praia do Saco da Velha, Lagoa Azul e Praia da Conceição."
             width={300}
             height={169}
-            className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+            className="block md:hidden mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
 
@@ -132,9 +156,17 @@ export default function Escunas() {
             src="/assets/images/escuna-um-andar.jpeg"
             alt="Escuna de um andar: Ilha dos Cocos, Praia da Lula, Lagoa Azul, Praia Vermelha e Ilha Comprida."
             title="Escuna de um andar: Ilha dos Cocos, Praia da Lula, Lagoa Azul, Praia Vermelha e Ilha Comprida."
+            width={500}
+            height={281}
+            className="hidden md:block mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+          />
+          <Image
+            src="/assets/images/escuna-um-andar.jpeg"
+            alt="Escuna de um andar: Ilha dos Cocos, Praia da Lula, Lagoa Azul, Praia Vermelha e Ilha Comprida."
+            title="Escuna de um andar: Ilha dos Cocos, Praia da Lula, Lagoa Azul, Praia Vermelha e Ilha Comprida."
             width={300}
             height={169}
-            className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+            className="block md:hidden mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
 
@@ -170,9 +202,17 @@ export default function Escunas() {
             src="/assets/images/escuna-alternativo.jpeg"
             alt="Passeio Vespertino: Ilha Comprida, Ilha da Pescaria e Praia Vermelha."
             title="Passeio Vespertino: Ilha Comprida, Ilha da Pescaria e Praia Vermelha."
+            width={500}
+            height={667}
+            className="hidden md:block mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+          />
+          <Image
+            src="/assets/images/escuna-alternativo.jpeg"
+            alt="Passeio Vespertino: Ilha Comprida, Ilha da Pescaria e Praia Vermelha."
+            title="Passeio Vespertino: Ilha Comprida, Ilha da Pescaria e Praia Vermelha."
             width={300}
             height={400}
-            className="mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
+            className="block md:hidden mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
           />
         </div>
 
