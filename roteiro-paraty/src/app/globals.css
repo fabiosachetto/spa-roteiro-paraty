@@ -34,15 +34,14 @@ p {
 	margin-top: 3px;
 }
 
-#alert-icon {
-	margin-top: 1px;
-}
-
 #traineira,
 #escuna,
 #quemsomosnos {
 	background-color: #e5efdf;
 }
+
+#escuna svg,
+#escuna strong,
 #escuna h2,
 #escuna h3,
 #escuna p,
@@ -66,5 +65,5 @@ p {
 }
 
 #link-brain-tech {
-	background-color: #160F27;
+	background-color: #160f27;
 }
