@@ -1,0 +1,62 @@
+[
+  {
+    "titulo":         "TRADICIONAL",
+    "imagem":         "escuna-tradicional.jpeg",
+    "alt_title":      "Tradicional: Ilha dos Cocos, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha.",
+    "roteiro":        "Ilha dos Cocos, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha.",
+    "horario_inicio": "11h",
+    "horario_retorno":"17h",
+    "servicos":       "Bar e restaurante a bordo, música ao vivo, fotógrafo profissional, escorregador e ducha de água doce.",
+    "alerta":         "Não é permitido embarcar com cooler e caixa de som!",
+    "valor":          "R$150",
+    "contato":        "https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Tradicional."
+  },
+  {
+    "titulo":         "TRADICIONAL II",
+    "imagem":         "escuna-tradicional-ii.jpeg",
+    "alt_title":      "Tradicional II: Ilha dos Cocos, Praia da Conceição, Lagoa Azul e Praia da Lula.",
+    "roteiro":        "Ilha dos Cocos, Praia da Conceição, Lagoa Azul e Praia da Lula.",
+    "horario_inicio": "11h",
+    "horario_retorno":"17h",
+    "servicos":       "Bar e restaurante a bordo, música ao vivo e fotógrafo profissional.",
+    "alerta":         "Não é permitido embarcar com cooler e caixa de som!",
+    "valor":          "R$110",
+    "contato":        "https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Tradicional%20II."
+  },
+  {
+    "titulo":         "Rota das Águas Claras",
+    "imagem":         "escuna-aguas.jpeg",
+    "alt_title":      "Rota das Águas Claras: Ilha dos Cocos, Praia do Saco da Velha, Lagoa Azul e Praia da Conceição.",
+    "roteiro":        "Ilha dos Cocos, Praia do Saco da Velha, Lagoa Azul e Praia da Conceição.",
+    "horario_inicio": "11h",
+    "horario_retorno":"17h",
+    "servicos":       "Bar e restaurante a bordo, música ao vivo, fotógrafo profissional, escorregador e ducha de água doce.",
+    "alerta":         "Não é permitido embarcar com cooler e caixa de som!",
+    "valor":          "R$150",
+    "contato":        "https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Rota%20das%20Águas%20Claras."
+  },
+  {
+    "titulo":         "Escuna de um andar",
+    "imagem":         "escuna-um-andar.jpeg",
+    "alt_title":      "Escuna de um andar: Ilha dos Cocos, Praia da Lula, Lagoa Azul, Praia Vermelha e Ilha Comprida.",
+    "roteiro":        "Ilha dos Cocos, Praia da Lula, Lagoa Azul, Praia Vermelha e Ilha Comprida.",
+    "horario_inicio": "9h30",
+    "horario_retorno":"15h30",
+    "servicos":       "Bar e restaurante a bordo, música ao vivo e fotógrafo profissional.",
+    "alerta":         "Não é permitido embarcar com cooler e caixa de som!",
+    "valor":          "R$100",
+    "contato":        "https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20De%20um%20Andar."
+  },
+  {
+    "titulo":         "Passeio Vespertino",
+    "imagem":         "escuna-vespertina.jpeg",
+    "alt_title":      "Passeio Vespertino: Ilha Comprida, Ilha da Pescaria e Praia Vermelha.",
+    "roteiro":        "Ilha Comprida, Ilha da Pescaria e Praia Vermelha.",
+    "horario_inicio": "12h",
+    "horario_retorno":"17h",
+    "servicos":       "Bar a bordo, música ambiente e flutuadores disponíveis.",
+    "alerta":         "O almoço ocorrerá em um restaurante fora da embarcação.",
+    "valor":          "R$120",
+    "contato":        "https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Vespertino."
+  }
+]

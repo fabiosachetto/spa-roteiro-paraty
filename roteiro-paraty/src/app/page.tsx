@@ -1,11 +1,11 @@
-import infos from "@/data/infos-home.json";
+import infosHome from "@/data/infosHome.json";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
-  const escunaInfo = infos.find(info => info.titulo_pagina === "Escunas");
-  const jeepInfo = infos.find(info => info.titulo_pagina === "Jeep");
-  const privativosInfo = infos.find(info => info.titulo_pagina === "Privativos");
+  const escunaInfo = infosHome.find(info => info.titulo_pagina === "Escunas");
+  const jeepInfo = infosHome.find(info => info.titulo_pagina === "Jeep");
+  const privativosInfo = infosHome.find(info => info.titulo_pagina === "Privativos");
 
   return (
     <div className="text-center">
