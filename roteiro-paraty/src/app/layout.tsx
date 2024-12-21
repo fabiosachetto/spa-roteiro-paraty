@@ -1,4 +1,5 @@
 import { Footer } from "@/components/Footer/Footer";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics/GoogleAnalytics";
 import { Navbar } from "@/components/Navbar/Navbar";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
@@ -30,7 +31,8 @@ export default function RootLayout({
 
           <Footer />
         </main>
+        <GoogleAnalytics />
       </body>
-    </html >
+    </html>
   );
 };
