@@ -11,3 +11,4 @@ export { MastercardIcon } from "./icons/MastercardIcon";
 export { PixIcon } from "./icons/PixIcon";
 export { VisaIcon } from "./icons/VisaIcon";
 export { WhatsappIcon } from "./icons/WhatsappIcon";
+export { WifiIcon } from "./icons/WifiIcon";

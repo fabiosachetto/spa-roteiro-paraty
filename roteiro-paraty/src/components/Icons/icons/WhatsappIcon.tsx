@@ -7,5 +7,5 @@ export const WhatsappIcon = ({ color = "currentColor", className = "float-left" 
         </g>
       </g>
     </svg>
-  )
-} 
+  );
+};

@@ -1,4 +1,4 @@
-import { AlertIcon, ClockIcon } from "@/components/Icons/Icons";
+import { AlertIcon, ClockIcon, WifiIcon, } from "@/components/Icons/Icons";
 import infosEscunas from "@/data/infosEscunas.json";
 import Image from "next/image";
 import Link from "next/link";
@@ -36,15 +36,20 @@ export default function Escunas() {
             <p className="mb-6"><strong>Roteiro:</strong> {infoEscuna.roteiro}</p>
 
             <p className="table m-auto">
-              <ClockIcon className="w-4 h-4 mr-2 float-left" />
-              <strong>Início:</strong> {infoEscuna.horario_inicio} | <strong>Retorno:</strong> {infoEscuna.horario_retorno}
+              <strong><ClockIcon className="w-5 h-5 mr-2 float-left" /> Início:</strong> {infoEscuna.horario_inicio} | <strong>Retorno:</strong> {infoEscuna.horario_retorno}
             </p>
 
             <p><strong>Serviços:</strong> {infoEscuna.servicos}</p>
 
-            <div className="mb-6 inline-flex px-0 2xl:px-10">
-              <strong className="text-center inline-flex"><AlertIcon /> {infoEscuna.alerta}</strong>
-            </div>
+            {infoEscuna.wifi && (
+              <p className="table m-auto">
+                <strong><WifiIcon className="w-5 h-5 mr-2 float-left" />{infoEscuna.wifi}</strong>
+              </p>
+            )}
+
+            <p className="table m-auto">
+              <strong><AlertIcon className="w-6 h-6 mr-2 float-left" /> {infoEscuna.alerta}</strong>
+            </p>
 
             <p><strong>Valor:</strong> {infoEscuna.valor} por pessoa.</p>
 

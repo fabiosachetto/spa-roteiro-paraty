@@ -37,14 +37,13 @@ export default function Jeep() {
 
             {infoJeep.horario_inicio && (
               <div className="table m-auto">
-                <ClockIcon className="w-4 h-4 mr-2 float-left" />
-                <strong>Início:</strong> {infoJeep.horario_inicio} | <strong>Retorno:</strong> {infoJeep.horario_retorno}
+                <strong><ClockIcon className="w-5 h-5 mr-2 float-left" /> Início:</strong> {infoJeep.horario_inicio} | <strong>Retorno:</strong> {infoJeep.horario_retorno}
               </div>
             )}
 
             {infoJeep.alerta && (
               <div className="mb-6 inline-flex px-0 2xl:px-10">
-                <strong className="text-center block"><AlertIcon /> {infoJeep.alerta}</strong>
+                <strong className="text-center block"><AlertIcon className="w-6 h-6 mr-2 float-left" /> {infoJeep.alerta}</strong>
               </div>
             )}
 
@@ -52,7 +51,7 @@ export default function Jeep() {
 
             {infoJeep.alerta_dois && (
               <div className="mb-6 inline-flex px-0 2xl:px-10">
-                <strong className="text-center block"><AlertIcon /> {infoJeep.alerta_dois}</strong>
+                <strong className="text-center block"><AlertIcon className="w-6 h-6 mr-2 float-left" /> {infoJeep.alerta_dois}</strong>
               </div>
             )}
 
