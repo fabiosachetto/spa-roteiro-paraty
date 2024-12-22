@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Privativo() {
   return (
     <section id="privativos" className="mt-7 p-7 text-white text-center">
-      <h2 className="text-4xl mb-5 uppercase">Privativos</h2>
+      <h2 className="text-4xl uppercase">Privativos</h2>
       {infosPrivativos.map((infoPrivativo, index) => {
         return (
           <div key={infoPrivativo.titulo} className={`pt-7 ${index !== infosPrivativos.length - 1 ? "py-7 border-b border-double border-b-white" : ''}`}>
