@@ -44,10 +44,7 @@ export default function Jeep() {
 
             {infoJeep.alerta && (
               <div className="mb-6 inline-flex px-0 2xl:px-10">
-                <div className="">
-                  <AlertIcon />
-                </div>
-                <strong className="text-justify block">{infoJeep.alerta}</strong>
+                <strong className="text-center block"><AlertIcon /> {infoJeep.alerta}</strong>
               </div>
             )}
 
@@ -55,10 +52,7 @@ export default function Jeep() {
 
             {infoJeep.alerta_dois && (
               <div className="mb-6 inline-flex px-0 2xl:px-10">
-                <div className="">
-                  <AlertIcon />
-                </div>
-                <strong className="text-justify block">{infoJeep.alerta_dois}</strong>
+                <strong className="text-center block"><AlertIcon /> {infoJeep.alerta_dois}</strong>
               </div>
             )}
 

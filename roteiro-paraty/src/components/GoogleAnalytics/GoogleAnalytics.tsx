@@ -1,7 +1,6 @@
 import Script from 'next/script';
 
 const GA_TRACKING_ID = 'GTM-TBHXDD3C'; // Substitua pelo seu ID de acompanhamento do Google Analytics
-console.log("🚀 *** ~ GA_TRACKING_ID:", GA_TRACKING_ID);
 
 export const GoogleAnalytics = () => (
   <>

@@ -43,10 +43,7 @@ export default function Escunas() {
             <p><strong>Serviços:</strong> {infoEscuna.servicos}</p>
 
             <div className="mb-6 inline-flex px-0 2xl:px-10">
-              <div className="">
-                <AlertIcon />
-              </div>
-              <strong className="text-justify inline-flex">{infoEscuna.alerta}</strong>
+              <strong className="text-center inline-flex"><AlertIcon /> {infoEscuna.alerta}</strong>
             </div>
 
             <p><strong>Valor:</strong> {infoEscuna.valor} por pessoa.</p>
