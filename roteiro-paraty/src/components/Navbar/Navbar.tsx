@@ -10,7 +10,6 @@ import { NavbarNav } from "./NavbarNav";
 import { NavbarListProps } from "./types";
 
 export const Navbar = () => {
-  // export const Navbar = ({ className, ...props }: NavbarProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = (isOpen: unknown) => {
@@ -27,7 +26,6 @@ export const Navbar = () => {
 
   return (
     <NavbarNav>
-      {/* <nav className={cn("top-0 sm:top-0 bg-blue-500 text-white md:flex md:justify-between md:items-center fixed w-full z-50", className)} {...props}> */}
 
       <div className="container mx-auto flex justify-between items-center py-2 px-2 sm:px-0 lg:px-0 xl:px-24 2xl:px-52">
 
