@@ -33,21 +33,21 @@ export default function Escunas() {
               />
             </div>
 
-            <p className="mb-6"><strong>Roteiro:</strong> {infoEscuna.roteiro}</p>
+            <p className="mb-5"><strong>Roteiro:</strong> {infoEscuna.roteiro}</p>
 
-            <p className="table m-auto">
+            <p className="table mb-5 m-auto">
               <strong><ClockIcon className="w-5 h-5 mr-2 float-left" /> Início:</strong> {infoEscuna.horario_inicio} | <strong>Retorno:</strong> {infoEscuna.horario_retorno}
             </p>
 
-            <p><strong>Serviços:</strong> {infoEscuna.servicos}</p>
+            <p className="mb-5"><strong>Serviços:</strong> {infoEscuna.servicos}</p>
 
             {infoEscuna.wifi && (
-              <p className="table m-auto">
+              <p className="table mb-5 m-auto">
                 <strong><WifiIcon className="w-5 h-5 mr-2 float-left" />{infoEscuna.wifi}</strong>
               </p>
             )}
 
-            <p className="table m-auto">
+            <p className="table mb-5 m-auto">
               <strong><AlertIcon className="w-6 h-6 mr-2 float-left" /> {infoEscuna.alerta}</strong>
             </p>
 

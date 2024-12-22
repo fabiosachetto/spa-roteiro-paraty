@@ -33,26 +33,28 @@ export default function Jeep() {
               />
             </div>
 
-            <p className="mb-6"><strong>Roteiro:</strong> {infoJeep.roteiro}</p>
+            <p className="mb-5"><strong>Roteiro:</strong> {infoJeep.roteiro}</p>
 
             {infoJeep.horario_inicio && (
-              <div className="table m-auto">
+              <p className="table mb-5 m-auto">
                 <strong><ClockIcon className="w-5 h-5 mr-2 float-left" /> Início:</strong> {infoJeep.horario_inicio} | <strong>Retorno:</strong> {infoJeep.horario_retorno}
-              </div>
+              </p>
             )}
 
             {infoJeep.alerta && (
-              <div className="mb-6 inline-flex px-0 2xl:px-10">
+              <p className="table mb-5 m-auto">
                 <strong className="text-center block"><AlertIcon className="w-6 h-6 mr-2 float-left" /> {infoJeep.alerta}</strong>
-              </div>
+              </p>
             )}
 
-            <p><strong>Valor:</strong> {infoJeep.valor} por pessoa.</p>
+            <p className="mb-5">
+              <strong>Valor:</strong> {infoJeep.valor} por pessoa.
+            </p>
 
             {infoJeep.alerta_dois && (
-              <div className="mb-6 inline-flex px-0 2xl:px-10">
+              <p className="table mb-5 m-auto">
                 <strong className="text-center block"><AlertIcon className="w-6 h-6 mr-2 float-left" /> {infoJeep.alerta_dois}</strong>
-              </div>
+              </p>
             )}
 
             <div className="mt-5">
