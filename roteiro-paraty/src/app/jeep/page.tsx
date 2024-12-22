@@ -58,7 +58,7 @@ export default function Jeep() {
             )}
 
             <div className="mt-5">
-              <Link href={infoJeep.contato} target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
+              <Link href={infoJeep.contato} target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-800">
                 Reserve já!
               </Link>
             </div>
