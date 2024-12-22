@@ -1,7 +1,7 @@
 import { Footer } from "@/components/Footer/Footer";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics/GoogleAnalytics";
 import { Navbar } from "@/components/Navbar/Navbar";
-import { Analytics } from "@vercel/analytics/next";
+// import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -33,7 +33,7 @@ export default function RootLayout({
 
           <Footer />
         </main>
-        <Analytics />
+        {/* <Analytics /> */}
         {/* <!-- Google Tag Manager (noscript) -->
         <noscript>
           <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TBHXDD3C"
