@@ -33,7 +33,7 @@ export default function Home() {
             </div>
 
             <div className="mt-4">
-              <Link href="/escunas" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-800">
+              <Link href="/escunas" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
                 Saiba Mais
               </Link>
             </div>
@@ -65,7 +65,7 @@ export default function Home() {
             </div>
 
             <div className="mt-4">
-              <Link href="/jeep" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-800">
+              <Link href="/jeep" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
                 Saiba Mais
               </Link>
             </div>
@@ -100,7 +100,7 @@ export default function Home() {
             </div>
 
             <div className="mt-4">
-              <Link href="/privativos" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-800">
+              <Link href="/privativos" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
                 Saiba Mais
               </Link>
             </div>

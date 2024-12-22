@@ -43,7 +43,7 @@ export default function Privativo() {
             )}
 
             <div className="mt-5">
-              <Link href={infoPrivativo.contato} target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 lg:px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-800">
+              <Link href={infoPrivativo.contato} target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 lg:px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
                 Reserve já!
               </Link>
             </div>
