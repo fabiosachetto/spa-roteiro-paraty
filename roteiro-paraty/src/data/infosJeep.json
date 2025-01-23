@@ -9,7 +9,7 @@
     "alerta":         "O embarque e desembarque é realizado na hospedagem do cliente. O almoço ocorre no Restaurante do Poço do Tarzan. Há degustação de cachaça gratuita nos alambiques, além de visita guiada.",
     "valor":          "R$150",
     "alerta_dois":    "É cobrado R$10 por pessoa na entrada da Cachoeira da Pedra Branca que deve ser pago na portaria ao ingressar.",
-    "contato":        "https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Jeep:%20Cachoeiras%20e%20Alambiques."
+    "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Jeep:%20Cachoeiras%20e%20Alambiques."
   },
   {
     "titulo":         "Trindade",
@@ -21,7 +21,7 @@
     "alerta":         "O embarque e desembarque é realizado na hospedagem do cliente. O almoço ocorre no Restaurante Nascer do Sol na Praia dos Ranchos.",
     "valor":          "R$150",
     "alerta_dois":    "Poderão ser cobradas tarifas adicionais para translado de bote para as Piscinas Naturais.",
-    "contato":        "https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Jeep:%20Trindade."
+    "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Jeep:%20Trindade."
   },
   {
     "titulo":         "3 em 1 (Ilha do Cedro)",
@@ -33,7 +33,7 @@
     "alerta":         "",
     "valor":          "R$250",
     "alerta_dois":    "",
-    "contato":        "https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Jeep:%203%20em%201."
+    "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Jeep:%203%20em%201."
   },
   {
     "titulo":         "Ilha do Cedro",
@@ -45,6 +45,6 @@
     "alerta":         "",
     "valor":          "R$150",
     "alerta_dois":    "",
-    "contato":        "https://api.whatsapp.com/send?phone=5524998793280&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Jeep:%20Ilha%20do%20Cedro."
+    "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Jeep:%20Ilha%20do%20Cedro."
   }
 ]
