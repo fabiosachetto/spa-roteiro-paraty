@@ -9,7 +9,7 @@
     "servicos":       "Bar e restaurante a bordo, música ao vivo e fotógrafo profissional.",
     "wifi":           "",
     "alerta":         "Não é permitido embarcar com cooler e caixa de som!",
-    "valor":          "R$100",
+    "valor":          "R$ 100,00",
     "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20De%20um%20Andar."
   },
   {
@@ -22,7 +22,7 @@
     "servicos":       "Bar e restaurante a bordo, música ao vivo e fotógrafo profissional.",
     "wifi":           "Wi-Fi disponível.",
     "alerta":         "Não é permitido embarcar com cooler e caixa de som!",
-    "valor":          "R$110",
+    "valor":          "R$ 110,00",
     "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Roteiro%20Lagoa%20Azul."
   },
   {
@@ -35,7 +35,7 @@
     "servicos":       "Bar e restaurante a bordo, música ao vivo, fotógrafo profissional, escorregador e ducha de água doce.",
     "wifi":           "",
     "alerta":         "Não é permitido embarcar com cooler e caixa de som!",
-    "valor":          "R$110",
+    "valor":          "R$ 110,00",
     "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Tradicional."
   },
   {
@@ -48,7 +48,7 @@
     "servicos":       "Bar e restaurante a bordo, música ao vivo, fotógrafo profissional, escorregador e ducha de água doce.",
     "wifi":           "Wi-Fi disponível.",
     "alerta":         "Não é permitido embarcar com cooler e caixa de som!",
-    "valor":          "R$150",
+    "valor":          "R$ 150,00",
     "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Escuna%20Temática%20de%20Piratas."
   },
   {
@@ -61,7 +61,7 @@
     "servicos":       "Bar e restaurante a bordo, música ao vivo, fotógrafo profissional, escorregador e ducha de água doce.",
     "wifi":           "Wi-Fi disponível.",
     "alerta":         "Não é permitido embarcar com cooler e caixa de som!",
-    "valor":          "R$150",
+    "valor":          "R$ 150,00",
     "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Rota%20das%20Águas%20Claras."
   },
   {
@@ -74,7 +74,7 @@
     "servicos":       "Bar a bordo, música ambiente e flutuadores disponíveis.",
     "wifi":           "",
     "alerta":         "O almoço ocorrerá em um restaurante fora da embarcação.",
-    "valor":          "R$120",
+    "valor":          "R$ 120,00",
     "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Vespertino."
   }
 ]
