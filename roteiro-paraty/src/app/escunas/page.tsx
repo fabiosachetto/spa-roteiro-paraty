@@ -36,7 +36,7 @@ export default function Escunas() {
             <p className="mb-5"><strong>Roteiro:</strong> {infoEscuna.roteiro}</p>
 
             <p className="table mb-5 m-auto">
-              <strong><ClockIcon className="w-5 h-5 mr-2 float-left" /> Início:</strong> {infoEscuna.horario_inicio} | <strong>Retorno:</strong> {infoEscuna.horario_retorno}
+              <strong><ClockIcon className="w-5 h-5 mr-2 float-left" /> Início: </strong> {infoEscuna.horario_inicio} | <strong>Retorno: </strong> {infoEscuna.horario_retorno}
             </p>
 
             <p className="mb-5"><strong>Serviços:</strong> {infoEscuna.servicos}</p>

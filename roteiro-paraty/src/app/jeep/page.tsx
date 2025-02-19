@@ -37,7 +37,7 @@ export default function Jeep() {
 
             {infoJeep.horario_inicio && (
               <p className="table mb-5 m-auto">
-                <strong><ClockIcon className="w-5 h-5 mr-2 float-left" /> Início:</strong> {infoJeep.horario_inicio} | <strong>Retorno:</strong> {infoJeep.horario_retorno}
+                <strong><ClockIcon className="w-5 h-5 mr-2 float-left" /> Início: </strong> {infoJeep.horario_inicio} | <strong>Retorno: </strong> {infoJeep.horario_retorno}
               </p>
             )}
 
