@@ -10,6 +10,7 @@
     "wifi":           "",
     "alerta":         "Não é permitido embarcar com cooler e caixa de som!",
     "valor":          "R$ 100",
+    "valor_carnaval": "",
     "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20De%20um%20Andar."
   },
   {
@@ -23,6 +24,7 @@
     "wifi":           "Wi-Fi disponível.",
     "alerta":         "Não é permitido embarcar com cooler e caixa de som!",
     "valor":          "R$ 110",
+    "valor_carnaval": "",
     "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Roteiro%20Lagoa%20Azul."
   },
   {
@@ -36,6 +38,7 @@
     "wifi":           "",
     "alerta":         "Não é permitido embarcar com cooler e caixa de som!",
     "valor":          "R$ 110",
+    "valor_carnaval": "",
     "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Tradicional."
   },
   {
@@ -49,6 +52,7 @@
     "wifi":           "Wi-Fi disponível.",
     "alerta":         "Não é permitido embarcar com cooler e caixa de som!",
     "valor":          "R$ 150",
+    "valor_carnaval": "Obs: R$ 180 por pessoa (Entre 28/02 a 05/03)",
     "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Escuna%20Temática%20de%20Piratas."
   },
   {
@@ -62,6 +66,7 @@
     "wifi":           "Wi-Fi disponível.",
     "alerta":         "Não é permitido embarcar com cooler e caixa de som!",
     "valor":          "R$ 150",
+    "valor_carnaval": "Obs: R$ 180 por pessoa (Entre 28/02 a 05/03)",
     "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Rota%20das%20Águas%20Claras."
   },
   {
@@ -75,6 +80,7 @@
     "wifi":           "",
     "alerta":         "O almoço ocorrerá em um restaurante fora da embarcação.",
     "valor":          "R$ 120",
+    "valor_carnaval": "",
     "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Vespertino."
   },
   {
@@ -88,6 +94,7 @@
     "wifi":           "",
     "alerta":         "O almoço ocorrerá em um restaurante na Praia do Cruzeiro, sendo este um serviço oferecido a parte.",
     "valor":          "R$ 250",
+    "valor_carnaval": "",
     "contato":        "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Lancha%20Compartilhada:%20SACO%20DO%20MAMANGUÁ."
   }
 ]

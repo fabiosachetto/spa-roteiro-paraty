@@ -36,7 +36,7 @@ export default function Escunas() {
             <p className="mb-5"><strong>Roteiro:</strong> {infoEscuna.roteiro}</p>
 
             <p className="table mb-5 m-auto">
-              <strong><ClockIcon className="w-5 h-5 mr-2 float-left" /> Início: </strong> {infoEscuna.horario_inicio} | <strong>Retorno: </strong> {infoEscuna.horario_retorno}
+              <strong> <ClockIcon className="w-5 h-5 mr-2 float-left" /> Início: </strong> {infoEscuna.horario_inicio} | <strong>Retorno: </strong> {infoEscuna.horario_retorno}
             </p>
 
             <p className="mb-5"><strong>Serviços:</strong> {infoEscuna.servicos}</p>
@@ -51,7 +51,25 @@ export default function Escunas() {
               <strong><AlertIcon className="w-6 h-6 mr-2 float-left" /> {infoEscuna.alerta}</strong>
             </p>
 
-            <p><strong>Valor:</strong> {infoEscuna.valor} por pessoa.</p>
+            <p className="mb-5"><strong>Valor:</strong> {infoEscuna.valor} por pessoa.</p>
+
+            {infoEscuna.valor_carnaval && (
+              <p className="table m-auto">
+
+                <Image
+                  src="/assets/images/mascara-de-carnaval.gif"
+                  alt="Carnaval"
+                  title="Carnaval"
+                  width={30}
+                  height={30}
+                  className="float-left mr-2"
+                />
+
+                <strong className="sm:w-11/12">
+                  {infoEscuna.valor_carnaval}
+                </strong>
+              </p>
+            )}
 
             <div className="mt-5">
               <Link href={infoEscuna.contato} target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
