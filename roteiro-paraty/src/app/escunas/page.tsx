@@ -1,4 +1,4 @@
-import { AlertIcon, ClockIcon, WifiIcon, } from "@/components/Icons/Icons";
+import { AlertIcon, ClockIcon, WifiIcon } from "@/components/Icons/Icons";
 import infosEscunas from "@/data/infosEscunas.json";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,7 +9,13 @@ export default function Escunas() {
       <h2 className="text-4xl uppercase">Escunas</h2>
       {infosEscunas.map((infoEscuna, index) => {
         return (
-          <div key={infoEscuna.titulo} className={`pt-7 ${index !== infosEscunas.length - 1 ? "py-7 border-b border-double border-b-amber-900" : ''}`}>
+          <div
+            key={infoEscuna.titulo}
+            className={`pt-7 ${
+              index !== infosEscunas.length - 1
+                ? "py-7 border-b border-double border-b-amber-900"
+                : ""
+            }`}>
             <h3 className="text-2xl mb-5 uppercase font-bold">
               {infoEscuna.titulo}
             </h3>
@@ -33,46 +39,48 @@ export default function Escunas() {
               />
             </div>
 
-            <p className="mb-5"><strong>Roteiro:</strong> {infoEscuna.roteiro}</p>
-
-            <p className="table mb-5 m-auto">
-              <strong> <ClockIcon className="w-5 h-5 mr-2 float-left" /> Início: </strong> {infoEscuna.horario_inicio} | <strong>Retorno: </strong> {infoEscuna.horario_retorno}
+            <p className="mb-5">
+              <strong>Roteiro:</strong> {infoEscuna.roteiro}
             </p>
 
-            <p className="mb-5"><strong>Serviços:</strong> {infoEscuna.servicos}</p>
+            <p className="table mb-5 m-auto">
+              <strong>
+                {" "}
+                <ClockIcon className="w-5 h-5 mr-2 float-left" /> Início:{" "}
+              </strong>{" "}
+              {infoEscuna.horario_inicio} | <strong>Retorno: </strong>{" "}
+              {infoEscuna.horario_retorno}
+            </p>
+
+            <p className="mb-5">
+              <strong>Serviços:</strong> {infoEscuna.servicos}
+            </p>
 
             {infoEscuna.wifi && (
               <p className="table mb-5 m-auto">
-                <strong><WifiIcon className="w-5 h-5 mr-2 float-left" />{infoEscuna.wifi}</strong>
-              </p>
-            )}
-
-            <p className="table mb-5 m-auto">
-              <strong><AlertIcon className="w-6 h-6 mr-2 float-left" /> {infoEscuna.alerta}</strong>
-            </p>
-
-            <p className="mb-5"><strong>Valor:</strong> {infoEscuna.valor} por pessoa.</p>
-
-            {infoEscuna.valor_carnaval && (
-              <p className="table m-auto">
-
-                <Image
-                  src="/assets/images/mascara-de-carnaval.gif"
-                  alt="Carnaval"
-                  title="Carnaval"
-                  width={30}
-                  height={30}
-                  className="float-left mr-2"
-                />
-
-                <strong className="sm:w-11/12">
-                  {infoEscuna.valor_carnaval}
+                <strong>
+                  <WifiIcon className="w-5 h-5 mr-2 float-left" />
+                  {infoEscuna.wifi}
                 </strong>
               </p>
             )}
 
+            <p className="table mb-5 m-auto">
+              <strong>
+                <AlertIcon className="w-6 h-6 mr-2 float-left" />{" "}
+                {infoEscuna.alerta}
+              </strong>
+            </p>
+
+            <p className="mb-5">
+              <strong>Valor:</strong> {infoEscuna.valor} por pessoa.
+            </p>
+
             <div className="mt-5">
-              <Link href={infoEscuna.contato} target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
+              <Link
+                href={infoEscuna.contato}
+                target="_blank"
+                className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
                 Reserve já!
               </Link>
             </div>
@@ -81,4 +89,4 @@ export default function Escunas() {
       })}
     </section>
   );
-};
+}
