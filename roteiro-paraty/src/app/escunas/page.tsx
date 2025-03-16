@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Escunas() {
   return (
-    <section id="escuna" className="mt-7 p-7 text-white text-center">
+    <section id="escuna" className="mt-7 p-7 text-center">
       <h2 className="text-4xl uppercase">Escunas</h2>
       {infosEscunas.map((infoEscuna, index) => {
         return (
@@ -19,6 +19,22 @@ export default function Escunas() {
             <h3 className="text-2xl mb-5 uppercase font-bold">
               {infoEscuna.titulo}
             </h3>
+
+            {infoEscuna.manutencao && (
+              <div className="w-fit m-auto">
+                <h4 className="mb-5 uppercase font-bold">
+                  <Image
+                    src={`/assets/images/${infoEscuna.manutencao}`}
+                    alt="Em manutenção"
+                    title="Em manutenção"
+                    width={25}
+                    height={25}
+                    className="float-left mr-2 mb-2"
+                  />
+                  EM MANUTENÇÃO
+                </h4>
+              </div>
+            )}
 
             <div className="inline-block">
               <Image
@@ -45,10 +61,9 @@ export default function Escunas() {
 
             <p className="table mb-5 m-auto">
               <strong>
-                {" "}
-                <ClockIcon className="w-5 h-5 mr-2 float-left" /> Início:{" "}
-              </strong>{" "}
-              {infoEscuna.horario_inicio} | <strong>Retorno: </strong>{" "}
+                <ClockIcon className="w-5 h-5 mr-2 float-left" /> Início:
+              </strong>
+              {infoEscuna.horario_inicio} | <strong>Retorno: </strong>
               {infoEscuna.horario_retorno}
             </p>
 
@@ -67,7 +82,7 @@ export default function Escunas() {
 
             <p className="table mb-5 m-auto">
               <strong>
-                <AlertIcon className="w-6 h-6 mr-2 float-left" />{" "}
+                <AlertIcon className="w-6 h-6 mr-2 float-left" />
                 {infoEscuna.alerta}
               </strong>
             </p>

@@ -1,6 +1,7 @@
 [
   {
     "titulo": "Roteiro com 5 paradas",
+    "manutencao": "boat-manutencao.png",
     "imagem": "escuna-cinco-paradas.jpeg",
     "alt_title": "Roteiro com 5 paradas: Ilha dos Cocos, Praia da Lula, Lagoa Azul, Praia Vermelha e Ilha Comprida.",
     "roteiro": "Ilha dos Cocos, Praia da Lula, Lagoa Azul, Praia Vermelha e Ilha Comprida.",
@@ -14,6 +15,7 @@
   },
   {
     "titulo": "Roteiro Lagoa Azul",
+    "manutencao": "",
     "imagem": "escuna-roteiro-lagoa-azul.jpeg",
     "alt_title": "Roteiro Lagoa Azul: Ilha dos Cocos, Praia da Conceição, Lagoa Azul e Praia da Lula.",
     "roteiro": "Ilha dos Cocos, Praia da Conceição, Lagoa Azul e Praia da Lula.",
@@ -27,6 +29,7 @@
   },
   {
     "titulo": "Roteiro Tradicional",
+    "manutencao": "",
     "imagem": "escuna-tradicional.jpeg",
     "alt_title": "Roteiro Tradicional: Ilha Comprida, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha.",
     "roteiro": "Ilha Comprida, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha.",
@@ -40,6 +43,7 @@
   },
   {
     "titulo": "Escuna Temática de Piratas",
+    "manutencao": "",
     "imagem": "escuna-piratas.jpeg",
     "alt_title": "Escuna Temática de Piratas: Ilha dos Cocos, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha.",
     "roteiro": "Ilha dos Cocos, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha.",
@@ -53,6 +57,7 @@
   },
   {
     "titulo": "Rota das Águas Claras",
+    "manutencao": "",
     "imagem": "escuna-aguas.jpeg",
     "alt_title": "Rota das Águas Claras: Ilha dos Cocos, Praia do Saco da Velha, Lagoa Azul e Praia da Conceição.",
     "roteiro": "Ilha dos Cocos, Praia do Saco da Velha, Lagoa Azul e Praia da Conceição.",
@@ -66,6 +71,7 @@
   },
   {
     "titulo": "Passeio Vespertino",
+    "manutencao": "boat-manutencao.png",
     "imagem": "escuna-vespertina.jpeg",
     "alt_title": "Passeio Vespertino: Ilha Comprida, Ilha da Pescaria e Praia Vermelha.",
     "roteiro": "Ilha Comprida, Ilha da Pescaria e Praia Vermelha.",
@@ -79,6 +85,7 @@
   },
   {
     "titulo": "SACO DO MAMANGUÁ (Lancha Compartilhada)",
+    "manutencao": "",
     "imagem": "lancha-compartilhada.jpeg",
     "alt_title": "SACO DO MAMANGUÁ (Lancha Compartilhada): Ilha dos Cocos, Praia do Engenho, Cachoeira do Engenho (Trilha), Pico do Pão de Açúcar (Trilha Opcional), Praia do Cruzeiro (Almoço) e Forte da Tapera.",
     "roteiro": "Ilha dos Cocos, Praia do Engenho, Cachoeira do Engenho (Trilha), Pico do Pão de Açúcar (Trilha Opcional), Praia do Cruzeiro (Almoço) e Forte da Tapera.",
