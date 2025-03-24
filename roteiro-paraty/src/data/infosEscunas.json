@@ -56,10 +56,10 @@
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Escuna%20Temática%20de%20Piratas."
   },
   {
-    "titulo": "Rota das Águas Claras",
+    "titulo": "Roteiro Ilha dos Cocos 🌴",
     "manutencao": "",
-    "imagem": "escuna-aguas.jpeg",
-    "alt_title": "Rota das Águas Claras: Ilha dos Cocos, Praia do Saco da Velha, Lagoa Azul e Praia da Conceição.",
+    "imagem": "escuna-cocos.jpeg",
+    "alt_title": "Roteiro Ilha dos Cocos 🌴: Ilha dos Cocos, Praia do Saco da Velha, Lagoa Azul e Praia da Conceição.",
     "roteiro": "Ilha dos Cocos, Praia do Saco da Velha, Lagoa Azul e Praia da Conceição.",
     "horario_inicio": "11h",
     "horario_retorno": "17h",
@@ -67,7 +67,7 @@
     "wifi": "Wi-Fi disponível.",
     "alerta": "Não é permitido embarcar com cooler e caixa de som!",
     "valor": "R$ 150",
-    "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Rota%20das%20Águas%20Claras."
+    "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Roteiro%20Ilha%20dos%20Cocos."
   },
   {
     "titulo": "Passeio Vespertino",
