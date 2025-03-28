@@ -101,7 +101,7 @@ export default function Escunas() {
                   height={30}
                   className="float-left mr-2"
                 />
-                <strong className="mt-1 inline-block">
+                <strong className="mt-1 sm:inline-block">
                   {infoEscuna.pascoa}
                 </strong>
               </p>
