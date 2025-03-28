@@ -91,6 +91,22 @@ export default function Escunas() {
               <strong>Valor:</strong> {infoEscuna.valor} por pessoa.
             </p>
 
+            {infoEscuna.pascoa && (
+              <p className="table mb-5 m-auto">
+                <Image
+                  src="/assets/images/pascoa.png"
+                  alt={infoEscuna.alt_title}
+                  title={infoEscuna.alt_title}
+                  width={30}
+                  height={30}
+                  className="float-left mr-2"
+                />
+                <strong className="mt-1 inline-block">
+                  {infoEscuna.pascoa}
+                </strong>
+              </p>
+            )}
+
             <div className="mt-5">
               <Link
                 href={infoEscuna.contato}
