@@ -3,41 +3,42 @@
 @tailwind utilities;
 
 :root {
-	--background: #ffffff;
-	--foreground: #171717;
+  --background: #ffffff;
+  --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
-	:root {
-		--background: #0a0a0a;
-		--foreground: #ededed;
-	}
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
 }
 
 body {
-	color: var(--foreground);
-	background: var(--background);
-	font-family: openSans, sans-serif;
+  color: var(--foreground);
+  background: var(--background);
+  font-family: openSans, sans-serif;
 }
 
 h1,
 h2 {
-	font-family: stella, sans-serif;
+  font-family: stella, sans-serif;
 }
 
 a,
 p {
-	font-family: openSans, sans-serif;
+  font-family: openSans, sans-serif;
 }
 
 #clock-icon {
-	margin-top: 3px;
+  margin-top: 3px;
 }
 
 #traineira,
 #escuna,
+#expericeias,
 #quemsomosnos {
-	background-color: #e5efdf;
+  background-color: #e5efdf;
 }
 
 #escuna svg,
@@ -46,25 +47,31 @@ p {
 #escuna h3,
 #escuna h4,
 #escuna p,
+#expericeias svg,
+#expericeias strong,
+#expericeias h2,
+#expericeias h3,
+#expericeias h4,
+#expericeias p,
 #traineira h2,
 #traineira h3,
 #traineira p,
 #quemsomosnos h2,
 #quemsomosnos p {
-	color: #91602a;
+  color: #91602a;
 }
 #jeep {
-	background-color: #91602a;
+  background-color: #91602a;
 }
 #privativos {
-	background-color: #82ac9d;
+  background-color: #82ac9d;
 }
 
 #programa,
 #lancha {
-	background-color: #4f2f26;
+  background-color: #4f2f26;
 }
 
 #link-brain-tech {
-	background-color: #160f27;
+  background-color: #160f27;
 }
