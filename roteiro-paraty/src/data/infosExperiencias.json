@@ -9,7 +9,7 @@
     "servicos": "Bar e restaurante a bordo, música ao vivo e fotógrafo profissional.",
     "wifi": "",
     "alerta": "Não é permitido embarcar com cooler e caixa de som!",
-    "valor": "R$ 100",
+    "valor": "R$ 80",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Experiências:%20City%20Tour."
   },
   {
@@ -22,7 +22,7 @@
     "servicos": "Bar e restaurante a bordo, música ao vivo e fotógrafo profissional.",
     "wifi": "Wi-Fi disponível.",
     "alerta": "Não é permitido embarcar com cooler e caixa de som!",
-    "valor": "R$ 110",
+    "valor": "R$ 550",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Experiências:%20Mergulho."
   },
   {
@@ -35,7 +35,7 @@
     "servicos": "Bar e restaurante a bordo, música ao vivo, fotógrafo profissional, escorregador e ducha de água doce.",
     "wifi": "",
     "alerta": "Não é permitido embarcar com cooler e caixa de som!",
-    "valor": "R$ 110",
+    "valor": "R$ 150 à diária",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Experiências:%20Aluguel%20de%20Bikes."
   },
   {
@@ -48,7 +48,7 @@
     "servicos": "Bar e restaurante a bordo, música ao vivo, fotógrafo profissional, escorregador e ducha de água doce.",
     "wifi": "Wi-Fi disponível.",
     "alerta": "Não é permitido embarcar com cooler e caixa de som!",
-    "valor": "R$ 150",
+    "valor": "Conultar valores",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Experiências:%20Fazenda%20Bananal."
   }
 ]
