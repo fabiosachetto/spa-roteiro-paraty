@@ -8,7 +8,13 @@ export default function Privativo() {
       <h2 className="text-4xl uppercase">Privativos</h2>
       {infosPrivativos.map((infoPrivativo, index) => {
         return (
-          <div key={infoPrivativo.titulo} className={`pt-7 ${index !== infosPrivativos.length - 1 ? "py-7 border-b border-double border-b-white" : ''}`}>
+          <div
+            key={infoPrivativo.titulo}
+            className={`pt-7 ${
+              index !== infosPrivativos.length - 1
+                ? "py-7 border-b border-double border-b-white"
+                : ""
+            }`}>
             {/* <div className="pb-7"> */}
             <h3 className="text-2xl mb-5 uppercase font-bold">
               {infoPrivativo.titulo}
@@ -32,18 +38,27 @@ export default function Privativo() {
               />
             </div>
 
-            <p className="mb-6"><strong>{infoPrivativo.roteiro}</strong></p>
+            <p className="mb-6">
+              <strong>{infoPrivativo.roteiro}</strong>
+            </p>
 
             {infoPrivativo.servicos && (
-              <p className="mb-6"><strong>Disponibilizamos:</strong> {infoPrivativo.servicos}</p>
+              <p className="mb-6">
+                <strong>Disponibilizamos:</strong> {infoPrivativo.servicos}
+              </p>
             )}
 
             {infoPrivativo.valor && (
-              <p><strong>Valores:</strong> À partir de {infoPrivativo.valor} (Capacidade para até 7 pessoas.)</p>
+              <p>
+                <strong>Valores:</strong> À partir de {infoPrivativo.valor}
+              </p>
             )}
 
             <div className="mt-5">
-              <Link href={infoPrivativo.contato} target="_blank" className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 lg:px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
+              <Link
+                href={infoPrivativo.contato}
+                target="_blank"
+                className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-6 lg:px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
                 Reserve já!
               </Link>
             </div>
@@ -52,4 +67,4 @@ export default function Privativo() {
       })}
     </section>
   );
-};
+}
