@@ -15,9 +15,11 @@ export default function Experiencias() {
                 ? "py-7 border-b border-double border-b-amber-900"
                 : ""
             }`}>
-            <h3 className="text-2xl mb-5 uppercase font-bold">
-              {infoExperiencia.titulo}
-            </h3>
+            {infoExperiencia.titulo && (
+              <h3 className="text-2xl mb-5 uppercase font-bold">
+                {infoExperiencia.titulo}
+              </h3>
+            )}
 
             {infoExperiencia.imagem && (
               <div className="inline-block">
@@ -38,6 +40,12 @@ export default function Experiencias() {
                   className="block md:hidden mb-5 object-cover transition duration-500 hover:scale-105 rounded-lg border-4 border-white"
                 />
               </div>
+            )}
+
+            {infoExperiencia.sub_titulo && (
+              <h4 className="text-1xl mb-5 uppercase font-bold">
+                {infoExperiencia.sub_titulo}
+              </h4>
             )}
 
             {infoExperiencia.roteiro && (
@@ -70,18 +78,28 @@ export default function Experiencias() {
               </p>
             )}
 
-            <p className="mb-5">
-              <strong>Valor:</strong> {infoExperiencia.valor} por pessoa.
-            </p>
+            {infoExperiencia.valor && (
+              <p>
+                <strong>Valor:</strong> {infoExperiencia.valor}
+              </p>
+            )}
 
-            <div className="mt-5">
-              <Link
-                href={infoExperiencia.contato}
-                target="_blank"
-                className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
-                Reserve já!
-              </Link>
-            </div>
+            {infoExperiencia.consultar_disponibilidade && (
+              <p className="mb-5">
+                {infoExperiencia.consultar_disponibilidade}.
+              </p>
+            )}
+
+            {infoExperiencia.contato && (
+              <div className="mt-5">
+                <Link
+                  href={infoExperiencia.contato}
+                  target="_blank"
+                  className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
+                  Reserve já!
+                </Link>
+              </div>
+            )}
           </div>
         );
       })}
