@@ -1,7 +1,7 @@
 [
   {
     "titulo": "Lancha",
-    "imagem": "lancha.png",
+    "imagem": "lancha.jpeg",
     "alt_title": "Lancha Privativa: Roteiros e horários definidos pelo cliente.",
     "roteiro": "Roteiros e horários definidos pelo cliente.",
     "servicos": "Churrasqueira, cooler, gelo, água, frutas, flutuadores e snorkel.",
@@ -23,7 +23,7 @@
     "alt_title": "Traineira Privativa: Roteiros e horários definidos pelo cliente.",
     "roteiro": "Roteiros e horários definidos pelo cliente.",
     "servicos": "Churrasqueira, cooler, gelo, água, frutas, flutuadores, snorkel e ducha de água doce.",
-    "valor": "R$ 1.000 (Capacidade para até 7 pessoas.)",
+    "valor": "R$ 1.000 (Capacidade para até 25 pessoas.)",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20Privativo%20de%20Traineira."
   },
   {
