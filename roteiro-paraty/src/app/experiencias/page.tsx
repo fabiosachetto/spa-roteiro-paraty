@@ -66,6 +66,12 @@ export default function Experiencias() {
               </p>
             )}
 
+            {infoExperiencia.horario && (
+              <p className="mb-5">
+                <strong>Horário:</strong> {infoExperiencia.horario}
+              </p>
+            )}
+
             {infoExperiencia.duracao && (
               <p className="mb-5">
                 <strong>Duração:</strong> {infoExperiencia.duracao}
