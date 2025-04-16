@@ -11,7 +11,7 @@
     "oferecemos": "",
     "valor": "R$ 80 por pessoa.",
     "consultar_disponibilidade": "",
-    "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Experiências:%20City%20Tour."
+    "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20City%20Tour."
   },
   {
     "titulo": "Mergulho",
@@ -53,7 +53,7 @@
     "oferecemos": "",
     "valor": "R$ 200 por pessoa.",
     "consultar_disponibilidade": "",
-    "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Experiências:%20Mergulho."
+    "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20em%20fazer%20Mergulho."
   },
   {
     "titulo": "Aluguel de Bicicletas",
@@ -67,7 +67,7 @@
     "oferecemos": "Bicicleta, capacete e cadeado.",
     "valor": "R$ 150 a diária.",
     "consultar_disponibilidade": "",
-    "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Experiências:%20Aluguel%20de%20Bicicletas."
+    "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20Aluguel%20de%20Bicicletas."
   },
   {
     "titulo": "Fazenda Bananal",
@@ -81,6 +81,6 @@
     "oferecemos": "",
     "valor": "",
     "consultar_disponibilidade": "Consultar por programação e disponibilidade.",
-    "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Experiências:%20Fazenda%20Bananal."
+    "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20em%20conhecer%20a%20Fazenda%20Bananal."
   }
 ]
