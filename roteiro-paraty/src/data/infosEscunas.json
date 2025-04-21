@@ -11,7 +11,6 @@
     "wifi": "",
     "alerta": "Não é permitido embarcar com cooler e caixa de som!",
     "valor": "R$ 100",
-    "pascoa": "",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20De%20um%20Andar."
   },
   {
@@ -25,8 +24,7 @@
     "servicos": "Bar e restaurante a bordo, música ao vivo e fotógrafo profissional.",
     "wifi": "Wi-Fi disponível.",
     "alerta": "Não é permitido embarcar com cooler e caixa de som!",
-    "valor": "R$ 110",
-    "pascoa": "OBS: Entre os dias 18/04 e 21/04 o valor deste passeio será de R$ 130 por pessoa.",
+    "valor": "R$ 130",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Roteiro%20Lagoa%20Azul."
   },
   {
@@ -41,7 +39,6 @@
     "wifi": "",
     "alerta": "Não é permitido embarcar com cooler e caixa de som!",
     "valor": "R$ 110",
-    "pascoa": "",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Tradicional."
   },
   {
@@ -56,7 +53,6 @@
     "wifi": "Wi-Fi disponível.",
     "alerta": "Não é permitido embarcar com cooler e caixa de som!",
     "valor": "R$ 150",
-    "pascoa": "OBS: Entre os dias 18/04 e 21/04 o valor deste passeio será de R$ 180 por pessoa.",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Escuna%20Temática%20de%20Piratas."
   },
   {
@@ -71,7 +67,6 @@
     "wifi": "Wi-Fi disponível.",
     "alerta": "Não é permitido embarcar com cooler e caixa de som!",
     "valor": "R$ 150",
-    "pascoa": "OBS: Entre os dias 18/04 e 21/04 o valor deste passeio será de R$ 180 por pessoa.",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Roteiro%20Ilha%20dos%20Cocos."
   },
   {
@@ -86,7 +81,6 @@
     "wifi": "",
     "alerta": "O almoço ocorrerá em um restaurante fora da embarcação.",
     "valor": "R$ 120",
-    "pascoa": "",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Vespertino."
   },
   {
@@ -101,7 +95,6 @@
     "wifi": "",
     "alerta": "O almoço ocorrerá em um restaurante na Praia do Cruzeiro, sendo este um serviço oferecido a parte.",
     "valor": "R$ 250",
-    "pascoa": "",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Lancha%20Compartilhada:%20SACO%20DO%20MAMANGUÁ."
   }
 ]

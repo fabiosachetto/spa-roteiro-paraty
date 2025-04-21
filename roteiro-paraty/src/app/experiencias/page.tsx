@@ -4,7 +4,7 @@ import infosExperiencias from "@/data/infosExperiencias.json";
 
 export default function Experiencias() {
   return (
-    <section id="expericeias" className="mt-7 p-7 text-center">
+    <section id="experiencias" className="mt-7 p-7 text-center">
       <h2 className="text-4xl uppercase">Experiências</h2>
       {infosExperiencias.map((infoExperiencia, index) => {
         return (

@@ -127,7 +127,9 @@ export default function Home() {
 
       {experienciaInfo && (
         <div key={experienciaInfo.titulo_pagina}>
-          <section id="escuna" className="mt-7 p-7 text-white text-center">
+          <section
+            id="experiencias"
+            className="mt-7 p-7 text-white text-center">
             <h2 className="text-4xl mb-5 uppercase">
               {experienciaInfo.titulo_pagina}
             </h2>
@@ -158,10 +160,6 @@ export default function Home() {
                 href="/experiencias"
                 className="transition delay-150 duration-300 ease-in-out uppercase font-bold py-2 px-12 rounded-full cursor-pointer bg-[#0CC0DF] hover:bg-blue-500">
                 Saiba Mais
-                {/* - City Tour
-- Mergulho com cilindro (melhor específicar, sempre tem um doido)
-- Aluguel de Bike
-- Fazenda Bananal */}
               </Link>
             </div>
           </section>
