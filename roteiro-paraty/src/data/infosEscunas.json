@@ -15,7 +15,7 @@
   },
   {
     "titulo": "Roteiro Lagoa Azul",
-    "manutencao": "",
+    "manutencao": "boat-manutencao.png",
     "imagem": "escuna-roteiro-lagoa-azul.jpeg",
     "alt_title": "Roteiro Lagoa Azul: Ilha dos Cocos, Praia da Conceição, Lagoa Azul e Praia da Lula.",
     "roteiro": "Ilha dos Cocos, Praia da Conceição, Lagoa Azul e Praia da Lula.",
@@ -43,7 +43,7 @@
   },
   {
     "titulo": "Escuna Temática de Piratas",
-    "manutencao": "",
+    "manutencao": "boat-manutencao.png",
     "imagem": "escuna-piratas.jpeg",
     "alt_title": "Escuna Temática de Piratas: Ilha dos Cocos, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha.",
     "roteiro": "Ilha dos Cocos, Praia da Lula, Ilha da Pescaria (Lagoa Azul) e Praia Vermelha.",
