@@ -87,6 +87,15 @@ export default function Escunas() {
               </strong>
             </p>
 
+            {infoEscuna.alerta_dois && (
+              <p className="table mb-5 m-auto">
+                <strong>
+                  <AlertIcon className="w-6 h-6 mr-2 float-left" />
+                  {infoEscuna.alerta_dois}
+                </strong>
+              </p>
+            )}
+
             <p className="mb-5">
               <strong>Valor:</strong> {infoEscuna.valor} por pessoa.
             </p>

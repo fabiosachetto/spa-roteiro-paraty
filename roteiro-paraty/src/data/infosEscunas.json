@@ -10,6 +10,7 @@
     "servicos": "Bar e restaurante a bordo, música ao vivo e fotógrafo profissional.",
     "wifi": "",
     "alerta": "Não é permitido embarcar com cooler e caixa de som!",
+    "alerta_dois": "",
     "valor": "R$ 100",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20De%20um%20Andar."
   },
@@ -24,6 +25,7 @@
     "servicos": "Bar e restaurante a bordo, música ao vivo e fotógrafo profissional.",
     "wifi": "Wi-Fi disponível.",
     "alerta": "Não é permitido embarcar com cooler e caixa de som!",
+    "alerta_dois": "",
     "valor": "R$ 130",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Roteiro%20Lagoa%20Azul."
   },
@@ -38,6 +40,7 @@
     "servicos": "Bar e restaurante a bordo, música ao vivo, fotógrafo profissional, escorregador e ducha de água doce.",
     "wifi": "",
     "alerta": "Não é permitido embarcar com cooler e caixa de som!",
+    "alerta_dois": "",
     "valor": "R$ 110",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Tradicional."
   },
@@ -52,6 +55,7 @@
     "servicos": "Bar e restaurante a bordo, música ao vivo, fotógrafo profissional, escorregador e ducha de água doce.",
     "wifi": "Wi-Fi disponível.",
     "alerta": "Não é permitido embarcar com cooler e caixa de som!",
+    "alerta_dois": "",
     "valor": "R$ 150",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Escuna%20Temática%20de%20Piratas."
   },
@@ -66,6 +70,7 @@
     "servicos": "Bar e restaurante a bordo, música ao vivo, fotógrafo profissional, escorregador e ducha de água doce.",
     "wifi": "Wi-Fi disponível.",
     "alerta": "Não é permitido embarcar com cooler e caixa de som!",
+    "alerta_dois": "",
     "valor": "R$ 150",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Roteiro%20Ilha%20dos%20Cocos."
   },
@@ -80,6 +85,7 @@
     "servicos": "Bar a bordo, música ambiente e flutuadores disponíveis.",
     "wifi": "",
     "alerta": "O almoço ocorrerá em um restaurante fora da embarcação.",
+    "alerta_dois": "",
     "valor": "R$ 120",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Escuna:%20Vespertino."
   },
@@ -87,13 +93,14 @@
     "titulo": "SACO DO MAMANGUÁ (Lancha Compartilhada)",
     "manutencao": "",
     "imagem": "saco-mamangua.jpeg",
-    "alt_title": "SACO DO MAMANGUÁ (Lancha Compartilhada): Ilha dos Cocos, Praia do Engenho, Cachoeira do Engenho (Trilha), Pico do Pão de Açúcar (Trilha Opcional), Praia do Cruzeiro (Almoço) e Forte da Tapera.",
-    "roteiro": "Ilha dos Cocos, Praia do Engenho, Cachoeira do Engenho (Trilha), Pico do Pão de Açúcar (Trilha Opcional), Praia do Cruzeiro (Almoço) e Forte da Tapera.",
-    "horario_inicio": "11h",
-    "horario_retorno": "17h",
+    "alt_title": "SACO DO MAMANGUÁ (Lancha Compartilhada): Ilha dos Cocos, Praia do Engenho, Praia do Cruzeiro, Ilha da Cotia e Ilha da Pescaria.",
+    "roteiro": "Ilha dos Cocos, Praia do Engenho, Praia do Cruzeiro, Ilha da Cotia e Ilha da Pescaria.",
+    "horario_inicio": "10h",
+    "horario_retorno": "15h",
     "servicos": "Oferecemos: Snorkel, flutuadores e água mineral.",
     "wifi": "",
-    "alerta": "O almoço ocorrerá em um restaurante na Praia do Cruzeiro, sendo este um serviço oferecido a parte.",
+    "alerta": "Não é permitido embarcar com cooler e caixa de som!",
+    "alerta_dois": "O almoço ocorrerá em um restaurante na Praia do Cruzeiro, sendo este um serviço oferecido a parte.",
     "valor": "A partir de R$ 250",
     "contato": "https://api.whatsapp.com/send?phone=5524992779411&text=Olá,%20vim%20do%20site%20e%20tenho%20interesse%20no%20passeio%20de%20Lancha%20Compartilhada:%20SACO%20DO%20MAMANGUÁ."
   }
